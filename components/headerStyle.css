@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  header{
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+ 
+    z-index: 499;
+ 
+  
+    
+  }
+  .logo img{
+    height: 100px;
+    width: 220px;
+
+  }
+  .headerUserBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+  }
+  .HeaderHumburger{
+    font-weight: 200px;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #22AF86;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+    font-display: center;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+
+  }

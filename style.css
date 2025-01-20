@@ -1,0 +1,404 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  .homePageMain{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding-left: 160px;
+    padding-right: 160px;
+    background-image: url(/assets/headerBgwithout_car.png);
+    background-size: cover;
+    display: flex;
+
+  }
+.homepageFirst{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.homePageSecond{
+  width: 60%;
+
+}
+.homePageSecond img{
+  height: 600px;
+  width: 600px;
+}
+.HomePageParentdiv{
+  width: 100%;
+  
+ 
+
+
+     
+}
+.homepageFirstText{
+  color: #414141;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+.homePageSecondText{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 39px;
+  color: #22AF86;
+  line-height: 45px;
+}
+.homepageThirddiv{
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+   color: #414141;
+}
+.homePageButton{
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+
+}
+.HostButton{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #22AF86;
+  width: 35%;
+  padding: 10px;
+  border-radius: 40px;
+   color: white;
+  text-align: center;
+  font-size: 12px;
+
+}
+.homePageButton{
+  
+}
+
+.HomePagePlayIcon img{
+    height: 33px;
+    width: 33px;
+}
+  /* butto */
+
+  .main{
+
+  }
+  .search-bar {
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 9px;
+    width: 730px;
+  width: 57%;
+  height: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+    
+}
+input{
+     border:none ;
+      padding: 5px;
+    border:none;
+    border-radius: 5px;
+    width: 150px;
+}
+.input-groupp {
+    margin-right: 20px;
+
+    border-right: 2px solid black;
+    padding: 10px;
+}
+
+.label {
+    font-weight: bold;
+    margin: 10px;
+    background-color: red;
+
+}
+
+
+
+input[type="text"]::placeholder {
+    color: #aaa;
+}
+
+.search-button {
+  
+    border: none;
+    border-radius: 5px;
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 50px;
+    height: 50px;
+}
+
+  /* butto */
+
+.SectionBrowse{
+  background-color: black;
+  color: white;
+  padding-top: 70px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.SectionBrowseHeading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+
+}
+.staticrent{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #C5C5C5;
+  font-size: 22px;
+}
+.SectionBrowseHeadingBrowse{
+
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 41px;
+  color: #22AF86;
+
+}
+.SectionBrowseParentCar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+    gap: 20px;
+  width: 80%;
+  height: 500px;
+   
+}
+.grid-item {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    outline: 1px solid white;
+    outline-offset: -20px;
+    
+}
+.SectionBrowseFirst{
+  background-image: url(/assets/teslaBackgroundu.png);
+
+}
+
+.SectionBrowseSecond{
+  background-image: url(/assets/teslaBackgroundu.png);
+ 
+}
+
+.SectionbrowseThird{
+  background-image: url(/assets/teslaBackgroundu.png);
+  
+}
+.teslaHeading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 60PX;
+
+
+
+}
+.teslaHeading span{
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 20px;
+
+
+
+}
+.teslaHeading h6{
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 5px;
+
+
+}
+
+
+.volswagenheading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.volswagenheading span{
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+
+
+}
+.volswagenheading h6{
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 30px;
+
+
+}
+
+.porseHeading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.porseHeading span{
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+.porseHeading h6{
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+
+.SectionBrowseFirst img {
+    height: 360px;
+}
+
+.SectionArrow {
+     display: flex;
+
+    justify-content: center;
+
+}
+
+.occasion{
+  display: flex;
+  background-color: #f7f7f7;
+}
+.Occasionfirst{
+
+
+}
+.OccasionSecond{
+
+
+
+}
+
+.Destination{
+    background-color: #f7f7f7;
+}
+.destinationHeading{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+}
+.destinationHeading span{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #C5C5C5;
+  font-size: 22px;
+  font-family: "Poppins", serif;
+  font-weight: 300px;
+  background-color: #414141;
+}
+.destinationHeading h2{
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 41px;
+  color: #22AF86;
+}
+.CircleDestination{
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+}
+.CircleDestination span{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    color: #C5C5C5;
+
+}
+.CircleDestination h4{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    color: #22AF86;
+    font-size: 50px;
+
+}
+.CircleDestinationFirst{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+
+}
+.CircleDestinationSecond{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.CircleDestinationThrid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+} 
