@@ -1,307 +1,264 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-   padding: 0%;
-    margin: 0;
-    box-sizing: border-box; 
-  }
-  :root{
-    font-family: "Poppins", serif;
-    --beige-clr: #22AF86;
-    --grey-clr: #C5C5C5;
-    --global-padding: 0rem 8rem;
-  }
-  .homePageMain{
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 90vh;
-    padding-left: 160px;
-    padding-right: 160px;
-    background-image: url(/assets/headerBgwithout_car.png);
-    background-size: cover;
-    display: flex;
-
-  }
-.homepageFirst{
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Poppins", serif;
+  --beige-clr: #22af86;
+  --grey-clr: #c5c5c5;
+  --global-padding: 0rem 8rem;
+}
+.homePageMain {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  padding-left: 160px;
+  padding-right: 160px;
+  background-image: url(/assets/headerBgwithout_car.png);
+  background-size: cover;
+  display: flex;
+}
+.homepageFirst {
   width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
-.homePageSecond{
+.homePageSecond {
   width: 60%;
 
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.homePageSecond img{
+.homePageSecond img {
   height: 600px;
   width: 600px;
-
 }
-.HomePageParentdiv{
+.HomePageParentdiv {
   width: 100%;
-  
- 
-
-
-     
 }
-.homepageFirstText{
+.homepageFirstText {
   color: #414141;
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 25px;
 }
-.homePageSecondText{
+.homePageSecondText {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
   font-size: 39px;
-  color: #22AF86;
+  color: #22af86;
   line-height: 45px;
 }
-.homepageThirddiv{
+.homepageThirddiv {
   padding-top: 10px;
   font-size: 13px;
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
-   color: #414141;
+  color: #414141;
 }
-.homePageButton{
+.homePageButton {
   display: flex;
   padding-top: 10px;
   align-items: center;
   gap: 6px;
   cursor: pointer;
-
 }
-.HostButton{
+.HostButton {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-style: normal;
-  background-color: #22AF86;
+  background-color: #22af86;
   width: 35%;
   padding: 10px;
   border-radius: 40px;
-   color: white;
+  color: white;
   text-align: center;
   font-size: 12px;
-
 }
 
-
-.HomePagePlayIcon img{
-    height: 33px;
-    width: 33px;
+.HomePagePlayIcon img {
+  height: 33px;
+  width: 33px;
 }
 
-  .search-bar {
-    position: absolute;
-    bottom: 10%;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 35px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 9px;
-    width: 730px;
+.search-bar {
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 35px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 9px;
+  width: 730px;
   width: 57%;
   height: 70px;
   left: 50%;
   transform: translateX(-50%);
-    
 }
-input{
-     border:none ;
-      padding: 5px;
-    border:none;
-    border-radius: 5px;
-    width: 150px;
+input {
+  border: none;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
 }
 .input-groupp {
-    margin-right: 20px;
+  margin-right: 20px;
 
-    border-right: 1px solid #aaa;
-    padding: 10px;
+  border-right: 1px solid #aaa;
+  padding: 10px;
 }
 
 .label {
-    font-weight: bold;
-    margin: 10px;
-    background-color: red;
-
+  font-weight: bold;
+  margin: 10px;
+  background-color: red;
 }
 
-
-
 input[type="text"]::placeholder {
-    color: #aaa;
+  color: #aaa;
 }
 
 .search-button {
-  
-    border: none;
-    border-radius: 5px;
-    /* padding: 10px; */
-    cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  /* padding: 10px; */
+  cursor: pointer;
 }
 
 .search-button img {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
-  /* butto */
+/* butto */
 
-.SectionBrowse{
+.SectionBrowse {
   background-color: black;
   color: white;
   padding-top: 70px;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-.SectionBrowseHeading{
+.SectionBrowseHeading {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 25px;
-
 }
-.staticrent{
+.staticrent {
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
-  color: #C5C5C5;
+  color: #c5c5c5;
   font-size: 22px;
 }
-.SectionBrowseHeadingBrowse{
-
+.SectionBrowseHeadingBrowse {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: bold;
   font-size: 41px;
-  color: #22AF86;
-
+  color: #22af86;
 }
-.SectionBrowseParentCar{
+.SectionBrowseParentCar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-    gap: 20px;
+  gap: 20px;
   width: 80%;
   height: 500px;
-   
 }
 .grid-item {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 300px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    outline: 1px solid white;
-    outline-offset: -20px;
-    
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  outline: 1px solid white;
+  outline-offset: -20px;
 }
-.SectionBrowseFirst{
+.SectionBrowseFirst {
   background-image: url(/assets/teslaBackgroundu.png);
-
 }
 
-.SectionBrowseSecond{
+.SectionBrowseSecond {
   background-image: url(/assets/teslaBackgroundu.png);
- 
 }
 
-.SectionbrowseThird{
+.SectionbrowseThird {
   background-image: url(/assets/teslaBackgroundu.png);
-  
 }
-.teslaHeading{
+.teslaHeading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 60PX;
-
-
-
+  padding-right: 60px;
 }
-.teslaHeading span{
+.teslaHeading span {
   color: white;
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
   font-size: 20px;
   margin-top: 20px;
-
-
-
 }
-.teslaHeading h6{
+.teslaHeading h6 {
   color: white;
   font-family: "Poppins", serif;
   font-weight: 800;
   font-size: 30px;
   padding-top: 5px;
-
-
 }
 
-
-.volswagenheading{
+.volswagenheading {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.volswagenheading span{
+.volswagenheading span {
   color: white;
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
   font-size: 20px;
-
-
 }
-.volswagenheading h6{
+.volswagenheading h6 {
   color: white;
   font-family: "Poppins", serif;
   font-weight: 800;
   font-size: 30px;
-
-
 }
 
-.porseHeading{
+.porseHeading {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  
 }
-.porseHeading span{
+.porseHeading span {
   color: white;
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
   font-size: 20px;
 }
-.porseHeading h6{
+.porseHeading h6 {
   color: white;
   font-family: "Poppins", serif;
   font-weight: 800;
@@ -309,196 +266,151 @@ input[type="text"]::placeholder {
 }
 
 .grid-item img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 50%);
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
 }
 
 .SectionBrowseFirst img {
-    height: 360px;
+  height: 360px;
 }
 
 .SectionArrow {
-     display: flex;
-     justify-content: center;
-     padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
-.occasion{
+.occasion {
   display: flex;
   background-color: #f7f7f7;
   padding: var(--global-padding);
   width: 100%;
-  
 }
-.Occasionfirst{
+.Occasionfirst {
   padding-top: 40px;
   width: 50%;
-  
-  
-  
 }
 
-.OccasionSecond{
+.OccasionSecond {
   padding-top: 40px;
   font-family: "Poppins", serif;
-  font-weight:400;
+  font-weight: 400;
   width: 50%;
-
 }
-.Occasionbutton{
+.Occasionbutton {
   padding-top: 20px;
 }
 
-
-
-
-
-
-
-.Destination{
-    background-color: #f7f7f7;
+.Destination {
+  background-color: #f7f7f7;
 }
-.destinationHeading{
+.destinationHeading {
   display: flex;
   justify-content: center;
   flex-direction: column;
-align-items: center;
-padding-bottom: 20px;
-
+  align-items: center;
+  padding-bottom: 20px;
 }
-.destinationHeading span{
+.destinationHeading span {
   font-family: "Poppins", serif;
   font-weight: 300;
   font-style: normal;
-  color: #C5C5C5;
+  color: #c5c5c5;
   font-size: 22px;
   font-family: "Poppins", serif;
   font-weight: 300px;
-
 }
-.destinationHeading h2{
+.destinationHeading h2 {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: bold;
   font-size: 41px;
-  color: #22AF86;
+  color: #22af86;
 }
-.CircleDestination{
+.CircleDestination {
   display: flex;
   justify-content: center;
   gap: 41px;
   padding-bottom: 80px;
 }
-.CircleDestination span{
-    font-family: "Poppins", serif;
-    font-weight: 300;
-   
-
+.CircleDestination span {
+  font-family: "Poppins", serif;
+  font-weight: 300;
 }
-.CircleDestination h4{
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    color: #22AF86;
-    font-size: 35px;
-
+.CircleDestination h4 {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  color: #22af86;
+  font-size: 35px;
 }
-.CircleDestinationFirst{
+.CircleDestinationFirst {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
- 
-
 }
 .CircleDestinationFirst img {
   border: solid 1.5px black;
   border-radius: 50%;
   padding: 6px;
-
 }
 .CircleDestinationSecond img {
   border: solid 1.5px black;
   border-radius: 50%;
   padding: 6px;
-
 }
 .CircleDestinationThrid img {
   border: solid 1.5px black;
   border-radius: 50%;
   padding: 6px;
-
 }
-.CircleDestinationSecond{
+.CircleDestinationSecond {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
-.CircleDestinationThrid{
+.CircleDestinationThrid {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-} 
-
-
-
-/* after csss */
-
-
-
-
-
-
-
- /* section 4 start fron here --> */
- @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- :root{
-  --beige-clr: #22AF86;
-  --grey-clr: #C5C5C5;
-  font-family: "Poppins", serif;
-  --global-padding:0rem 8rem;
 }
 
-.daydreams-section{
+.daydreams-section {
   position: relative;
   height: 900px;
   background-color: black;
-  
-
 }
 
-.top-para{
+.top-para {
   display: flex;
   text-transform: uppercase;
   padding-top: 5rem;
-  color: #C5C5C5;
-  font-size: 1.50rem;
+  color: #c5c5c5;
+  font-size: 1.5rem;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
-.heading-top{
+.heading-top {
   display: flex;
-  color: #22AF86;
+  color: #22af86;
   padding-bottom: 2.5rem;
   font-size: 2rem;
   text-transform: uppercase;
   width: 100%;
-  font-weight:700px;
+  font-weight: 700px;
   align-items: center;
   justify-content: center;
 }
-.three-images{
+.three-images {
   display: flex;
   width: 80%;
   margin: auto;
-  gap: 1.5rem ;
+  gap: 1.5rem;
   align-items: center;
   justify-content: center;
 }
@@ -509,25 +421,25 @@ padding-bottom: 20px;
   justify-content: center;
   align-items: center;
 }
-.daydream-section-card img{
+.daydream-section-card img {
   width: 379px;
   height: 279px;
 }
 
-.small-text{
+.small-text {
   display: flex;
-  padding-top: 1.0rem;
+  padding-top: 1rem;
   align-items: center;
   justify-content: center;
   color: #525758;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
-.lower-heading{
-  color: #FFFFFF;
+.lower-heading {
+  color: #ffffff;
   font-size: 1.2rem;
   text-align: center;
 }
-.read-more button{
+.read-more button {
   align-items: center;
   justify-content: center;
   color: white;
@@ -550,19 +462,18 @@ padding-bottom: 20px;
   width: 100%;
   object-fit: cover;
 }
-      /* section 5 start fron here --> */
-
+/* section 5 start fron here --> */
 
 .section-5 {
   height: 90vh;
   margin-top: 300px;
   padding: var(--global-padding);
 }
-.three-review{
+.three-review {
   display: flex;
-  gap:1rem ;
+  gap: 1rem;
 }
-.review-card{
+.review-card {
   display: flex;
   background: var(--grey-clr);
   height: 40vh;
@@ -579,12 +490,11 @@ padding-bottom: 20px;
 .review img {
   width: 100%;
 }
-.partners-logo{
-justify-content: center;
+.partners-logo {
+  justify-content: center;
 }
-.partners-logo img
-{
-width: 100%;
+.partners-logo img {
+  width: 100%;
 }
 
 /* footer */
@@ -592,47 +502,43 @@ width: 100%;
 .footerparent {
   background-color: black;
   display: flex;
-  justify-content: space-around; 
-  padding: 20px; 
+  justify-content: space-around;
+  padding: 20px;
   padding-right: 100px;
   padding-left: 100px;
-  
 }
-.line{
+.line {
   width: 0.5px;
   background-color: white;
 }
 
 .footer-col {
-  width: 23%; 
-  color: #ffffff; 
-  padding: 10px; 
+  width: 23%;
+  color: #ffffff;
+  padding: 10px;
 }
 
 .logo-col {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 
 .iconImg {
   display: flex;
-  gap: 10px; 
+  gap: 10px;
   justify-content: center;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
-.footer-col h4{
+.footer-col h4 {
   font-family: "Poppins", serif;
   font-weight: 500;
   font-style: normal;
   font-size: 22px;
- 
 }
 
-
-
 ul.links {
-  list-style-type: none; 
+  list-style-type: none;
   padding: 0;
 }
 
@@ -642,11 +548,9 @@ ul.links li {
 
 ul.links a {
   color: #ffffff;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 ul.links a:hover {
-  text-decoration: underline; 
-}      
-
-
+  text-decoration: underline;
+}
