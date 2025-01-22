@@ -1,10 +1,10 @@
-import headerlogo from '../assets/SEATTAC.LOGO_1.png'
-import humburger from '../assets/humburgerAllThreeIcon.jpg.png'
-import user  from '../assets/usermainn.png'
-
+import headerlogo from "../assets/SEATTAC.LOGO_1.png";
+import humburger from "../assets/humburgerAllThreeIcon.jpg.png";
+import user from "../assets/usermainn.png";
+import "./headerStyle.css";
 
 export default function header() {
-    return `
+  return `
     <header>
     <div class="logo">
      <img src="${headerlogo}"  alt="header logo" />

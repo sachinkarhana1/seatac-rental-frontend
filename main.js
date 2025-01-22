@@ -1,3 +1,3 @@
-import header from "./components/header.js";
+import header from "./src/components/header.js";
 
-document.getElementById('header').innerHTML = header();
+document.getElementById("header").innerHTML = header();

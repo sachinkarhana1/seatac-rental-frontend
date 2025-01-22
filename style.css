@@ -16,7 +16,7 @@
   height: 90vh;
   padding-left: 160px;
   padding-right: 160px;
-  background-image: url(/assets/headerBgwithout_car.png);
+  background-image: url(src/assets/headerBgwithout_car.png);
   background-size: cover;
   display: flex;
 }
@@ -195,15 +195,15 @@ input[type="text"]::placeholder {
   outline-offset: -20px;
 }
 .SectionBrowseFirst {
-  background-image: url(/assets/teslaBackgroundu.png);
+  background-image: url(src/assets/teslaBackgroundu.png);
 }
 
 .SectionBrowseSecond {
-  background-image: url(/assets/teslaBackgroundu.png);
+  background-image: url(src/assets/teslaBackgroundu.png);
 }
 
 .SectionbrowseThird {
-  background-image: url(/assets/teslaBackgroundu.png);
+  background-image: url(src/assets/teslaBackgroundu.png);
 }
 .teslaHeading {
   display: flex;
