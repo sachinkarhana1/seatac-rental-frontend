@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    padding: 0%;
+   padding: 0%;
     margin: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
+  }
+  :root{
+    font-family: "Poppins", serif;
+    --beige-clr: #22AF86;
+    --grey-clr: #C5C5C5;
+    --global-padding: 0rem 8rem;
   }
   .homePageMain{
     position: relative;
@@ -28,10 +34,15 @@
 .homePageSecond{
   width: 60%;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .homePageSecond img{
   height: 600px;
   width: 600px;
+
 }
 .HomePageParentdiv{
   width: 100%;
@@ -85,22 +96,16 @@
   font-size: 12px;
 
 }
-.homePageButton{
-  
-}
+
 
 .HomePagePlayIcon img{
     height: 33px;
     width: 33px;
 }
-  /* butto */
 
-  .main{
-
-  }
   .search-bar {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -124,7 +129,7 @@ input{
 .input-groupp {
     margin-right: 20px;
 
-    border-right: 2px solid black;
+    border-right: 1px solid #aaa;
     padding: 10px;
 }
 
@@ -319,24 +324,41 @@ input[type="text"]::placeholder {
 
 .SectionArrow {
      display: flex;
-
-    justify-content: center;
-
+     justify-content: center;
+     padding-bottom: 20px;
 }
 
 .occasion{
   display: flex;
   background-color: #f7f7f7;
+  padding: var(--global-padding);
+  width: 100%;
+  
 }
 .Occasionfirst{
-
-
+  padding-top: 40px;
+  width: 50%;
+  
+  
+  
 }
+
 .OccasionSecond{
-
-
+  padding-top: 40px;
+  font-family: "Poppins", serif;
+  font-weight:400;
+  width: 50%;
 
 }
+.Occasionbutton{
+  padding-top: 20px;
+}
+
+
+
+
+
+
 
 .Destination{
     background-color: #f7f7f7;
@@ -347,6 +369,7 @@ input[type="text"]::placeholder {
   flex-direction: column;
 align-items: center;
 padding-bottom: 20px;
+
 }
 .destinationHeading span{
   font-family: "Poppins", serif;
@@ -356,7 +379,7 @@ padding-bottom: 20px;
   font-size: 22px;
   font-family: "Poppins", serif;
   font-weight: 300px;
-  background-color: #414141;
+
 }
 .destinationHeading h2{
   font-family: "Poppins", serif;
@@ -369,25 +392,45 @@ padding-bottom: 20px;
   display: flex;
   justify-content: center;
   gap: 41px;
+  padding-bottom: 80px;
 }
 .CircleDestination span{
     font-family: "Poppins", serif;
     font-weight: 300;
-    color: #C5C5C5;
+   
 
 }
 .CircleDestination h4{
     font-family: "Poppins", serif;
     font-weight: 700;
     color: #22AF86;
-    font-size: 50px;
+    font-size: 35px;
 
 }
 .CircleDestinationFirst{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
  
+
+}
+.CircleDestinationFirst img {
+  border: solid 1.5px black;
+  border-radius: 50%;
+  padding: 6px;
+
+}
+.CircleDestinationSecond img {
+  border: solid 1.5px black;
+  border-radius: 50%;
+  padding: 6px;
+
+}
+.CircleDestinationThrid img {
+  border: solid 1.5px black;
+  border-radius: 50%;
+  padding: 6px;
 
 }
 .CircleDestinationSecond{
@@ -402,3 +445,208 @@ padding-bottom: 20px;
   align-items: center;
 
 } 
+
+
+
+/* after csss */
+
+
+
+
+
+
+
+ /* section 4 start fron here --> */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ :root{
+  --beige-clr: #22AF86;
+  --grey-clr: #C5C5C5;
+  font-family: "Poppins", serif;
+  --global-padding:0rem 8rem;
+}
+
+.daydreams-section{
+  position: relative;
+  height: 900px;
+  background-color: black;
+  
+
+}
+
+.top-para{
+  display: flex;
+  text-transform: uppercase;
+  padding-top: 5rem;
+  color: #C5C5C5;
+  font-size: 1.50rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.heading-top{
+  display: flex;
+  color: #22AF86;
+  padding-bottom: 2.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight:700px;
+  align-items: center;
+  justify-content: center;
+}
+.three-images{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 1.5rem ;
+  align-items: center;
+  justify-content: center;
+}
+
+.daydream-section-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.daydream-section-card img{
+  width: 379px;
+  height: 279px;
+}
+
+.small-text{
+  display: flex;
+  padding-top: 1.0rem;
+  align-items: center;
+  justify-content: center;
+  color: #525758;
+  font-size: 1.0rem;
+}
+.lower-heading{
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.read-more button{
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--beige-clr);
+  padding: 1rem 4rem;
+  border-radius: 99rem;
+  border: none;
+  outline: none;
+}
+
+.daydream-section-car-display {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  left: 0;
+  width: 100%;
+}
+
+.daydream-section-car-display img {
+  width: 100%;
+  object-fit: cover;
+}
+      /* section 5 start fron here --> */
+
+
+.section-5 {
+  height: 90vh;
+  margin-top: 300px;
+  padding: var(--global-padding);
+}
+.three-review{
+  display: flex;
+  gap:1rem ;
+}
+.review-card{
+  display: flex;
+  background: var(--grey-clr);
+  height: 40vh;
+  width: 30%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  justify-content: center;
+}
+
+.debug {
+  outline: auto;
+}
+
+.review img {
+  width: 100%;
+}
+.partners-logo{
+justify-content: center;
+}
+.partners-logo img
+{
+width: 100%;
+}
+
+/* footer */
+
+.footerparent {
+  background-color: black;
+  display: flex;
+  justify-content: space-around; 
+  padding: 20px; 
+  padding-right: 100px;
+  padding-left: 100px;
+  
+}
+.line{
+  width: 0.5px;
+  background-color: white;
+}
+
+.footer-col {
+  width: 23%; 
+  color: #ffffff; 
+  padding: 10px; 
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.iconImg {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+  margin-top: 10px; 
+}
+.footer-col h4{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+ 
+}
+
+
+
+ul.links {
+  list-style-type: none; 
+  padding: 0;
+}
+
+ul.links li {
+  margin: 5px 0;
+}
+
+ul.links a {
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+ul.links a:hover {
+  text-decoration: underline; 
+}      
+
+
