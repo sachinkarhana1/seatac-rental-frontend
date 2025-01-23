@@ -17,7 +17,7 @@ export default function header() {
       <div class="HeaderUserLogo">
         <img src="${user}"   alt="user logo">
       </div>
-      <div class="button">CREATE AN ACCOUNT FOR GUEST </div>
+      <div > <button>create an account for guest </button> </div>
     </div>
 </header>
     `;

@@ -11,12 +11,14 @@
     justify-content: space-around;
     position: absolute;
     width: 100%;
- 
     z-index: 499;
  
   
     
   }
+  .logo {
+    width: 35%;
+}
   .logo img{
     height: 100px;
     width: 220px;
@@ -31,20 +33,19 @@
   .HeaderHumburger{
     font-weight: 200px;
   }
-  .button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  button{
+   
     background-color: #22AF86;
     width: 250px;
     height: 50px;
     color: white;
     font-size: 13px;
-    font-display: center;
+    
     border-radius: 30px;
     cursor: pointer;
     font-family: "Poppins", serif;
     font-weight: 500;
     font-style: normal;
+    text-transform: uppercase;
 
   }

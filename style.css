@@ -21,23 +21,16 @@
   display: flex;
 }
 .homepageFirst {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.homePageSecond {
-  width: 60%;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .homePageSecond img {
-  height: 600px;
-  width: 600px;
+ object-fit: contain;
 }
 .HomePageParentdiv {
   width: 100%;
@@ -47,15 +40,15 @@
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 30px;
 }
 .homePageSecondText {
   font-family: "Poppins", serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 39px;
+  font-size: 48px;
   color: #22af86;
-  line-height: 45px;
+  line-height: 56px;
 }
 .homepageThirddiv {
   padding-top: 10px;
@@ -74,7 +67,7 @@
 }
 .HostButton {
   font-family: "Poppins", serif;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   background-color: #22af86;
   width: 35%;
@@ -92,15 +85,14 @@
 
 .search-bar {
   position: absolute;
-  bottom: 10%;
+  bottom: 13%;
   display: flex;
   align-items: center;
   background-color: #fff;
   border-radius: 35px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 9px;
-  width: 730px;
-  width: 57%;
+  width: 930px;
   height: 70px;
   left: 50%;
   transform: translateX(-50%);
@@ -110,13 +102,17 @@ input {
   padding: 5px;
   border: none;
   border-radius: 5px;
-  width: 150px;
+  
+
+}
+.searchline{
+  width: 5.5px;
 }
 .input-groupp {
-  margin-right: 20px;
+  margin-right: 50px;
 
-  border-right: 1px solid #aaa;
-  padding: 10px;
+  /* border-right: 1px solid #aaa; */
+  padding: 37px;
 }
 
 .label {
@@ -136,9 +132,8 @@ input[type="text"]::placeholder {
   cursor: pointer;
 }
 
-.search-button img {
-  width: 50px;
-  height: 50px;
+.searchbarimg {
+  background-color:#fff;
 }
 
 /* butto */
@@ -178,7 +173,7 @@ input[type="text"]::placeholder {
   grid-template-rows: 1fr;
   gap: 20px;
   width: 80%;
-  height: 500px;
+  height: 450px;
 }
 .grid-item {
   position: relative;
@@ -280,9 +275,10 @@ input[type="text"]::placeholder {
 }
 
 .SectionArrow {
+ 
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .occasion {
@@ -301,6 +297,8 @@ input[type="text"]::placeholder {
   font-family: "Poppins", serif;
   font-weight: 400;
   width: 50%;
+  
+
 }
 .Occasionbutton {
   padding-top: 20px;
