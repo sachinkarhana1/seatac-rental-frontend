@@ -66,9 +66,8 @@
   align-items: center;
   float: right;
   background-color: white;
-  width: 32px;
   aspect-ratio: 1;
-  padding: 4px;
+  padding: 8px;
   border-radius: 9999px;
   object-fit: cover;
 }
@@ -230,9 +229,14 @@
   padding-left: 10px;
 }
 .publish-details {
+    margin-top: 8px;
   width: 400px;
   text-transform: uppercase;
   color: #666666;
+}
+.star-holder{
+    display: flex;
+    gap: 4px;
 }
 
 .publish-text {
@@ -242,8 +246,9 @@
   width: 20px;
   height: 20px;
   justify-content: center;
+  object-fit: contain;
   align-items: center;
-  padding-top: 10px;
+ 
 }
 .partners-logo {
   justify-content: center;
@@ -258,3 +263,69 @@
   width: 100%;
   object-fit: contain;
 }
+
+
+
+
+
+
+
+
+
+.footerparent {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .line {
+    width: 0.5px;
+    background-color: white;
+  }
+  
+  .footer-col {
+    width: 23%;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  .logo-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .iconImg {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .footer-col h4 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+  }
+  
+  ul.links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.links li {
+    margin: 5px 0;
+  }
+  
+  ul.links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  ul.links a:hover {
+    text-decoration: underline;
+  }
+  
+
