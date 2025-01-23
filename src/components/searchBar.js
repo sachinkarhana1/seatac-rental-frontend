@@ -1,12 +1,8 @@
-
-
-
-
-
-export default function searchBar(){
-    return `
-     <div class="bg-orange-800" id="search-bar">
-          <div class="input-groupp bg-slate-500">
+export default function searchBar() {
+  return `
+     <div class="flex w-full h-16 shadow-[0px_0px_10px_rgba(0,0,0,0.25)] bg-white rounded-full  justify-between items-center p-1" id="search-bar">
+     <div class="w-[90%] px-8  flex">
+        <div class="flex flex-col w-1/3">
             <label for="location">Where</label>
             <input
               type="text"
@@ -14,7 +10,7 @@ export default function searchBar(){
               placeholder="City, airport, address "
             />
           </div>
-          <div class="input-groupp">
+          <div class="flex flex-col w-1/3">
             <label for="from">From</label>
             <input
               placeholder="14/12/24       10:00"
@@ -24,25 +20,21 @@ export default function searchBar(){
             />
           </div>
           
-          <div class="input-group pl-4">
+          <div class="flex flex-col w-1/3">
             <label for="until ">Until</label>
             <input
               placeholder="14/12/24       10:00"
               type=""
-              id="until"
+              id=""
               value=""
             />
           </div>
+     </div>     
+    
 
-          <button class="searchbarimg">
-            <img
-              src="src/assets/hedarSearch-removebg-preview.png"
-              alt="Search Icon"
-            />
-          </button>
-        </div>
+      <div class="rounded-full flex justify-center items-center bg-green-500 aspect-square h-full">
+        1
       </div>
     </div>
-    </div>
-    `
+ `;
 }
