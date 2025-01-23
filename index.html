@@ -16,92 +16,44 @@
     <div id="header"></div>
 
     <!-- home page langing page 1 -->
-    <div class="py-12">
-      <div class="relative h-[550px] px-24">
-        <div class="bg-white w-2/5 h-full flex flex-col justify-center gap-5">
-          <div class="text-gray-700 font-seatac">
+    <div class="py-8 bg-[url('/src/assets/homebbgfinal.png')] bg-cover px-40">
+      <div class="relative h-[580px]">
+        <div class="w-1/2 h-full flex flex-col justify-center gap-3">
+          <div
+            class="flex text-gray-700 font-seatac font-poppins items-center text-2xl relative"
+          >
             Need to Rent
-            <img src="" alt="" />
+            <img
+              class="absolute right-4 top-1/2 w-[70%] -translate-y-1/2"
+              src="./src/assets/homefadecar.png"
+              alt=""
+            />
           </div>
-          <div class=""></div>
-          <div class=""></div>
-          <div class=""></div>
+
+          <div
+            class="font-seatac text-4xl font-bold text-emerald-500 leading-[48px]"
+          >
+            Luxury Car? <br />
+            Send A Request
+          </div>
+          <div class="font-poppins text-base font-normal w-3/4">
+            Pellentesque habitant morbi tristique senectus et netus et
+            malesuada.
+          </div>
+          <div class="flex gap-1">
+            <button class="w-44">BECOME A HOST</button>
+            <img src="/src/assets/play-icon.png" alt="playicon" />
+          </div>
         </div>
         <img
-          class="absolute right-0 scale-90 top-1/2 -translate-y-1/2"
+          class="w-3/4 absolute -right-16 top-1/2 -translate-y-1/2"
           src="src/assets/redCar.png"
           alt=""
         />
-      </div>
-    </div>
-
-    <div class="outline outline-white py-6">
-      <div class="outline px-20">
-        <div class="homepageFirst">
-          <div class="HomePageParentdiv">
-            <div class="homepageFirstText">Need to Rent</div>
-            <div class="homePageSecondText">
-              Luxury car?
-              <br />Send A Request
-            </div>
-            <div class="homepageThirddiv">
-              Pellentesque habitant morbi tristique senectus <br />
-              et netus et malesuada.
-            </div>
-            <div class="homePageButton">
-              <div class="HostButton">BECOME A HOST</div>
-              <div class="HomePagePlayIcon">
-                <img src="/src/assets/play-icon.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="homePageSecond">
-          <!-- <img src="/srcsrc/assets/HomePageFadeCarLogo.png" class="FadeLogo"> -->
-          <img src="src/assets/redCar.png" alt="redCar" />
-        </div>
-
-        <div class="" id="search-bar">
-          <div class="input-groupp">
-            <label for="location">Where</label>
-            <input
-              type="text"
-              id="location"
-              placeholder="City, airport, address "
-            />
-          </div>
-          <div class="searchline">
-            <img src="./dist/assets/Line 1.png" alt="" />
-          </div>
-          <div class="input-groupp">
-            <label for="from">From</label>
-            <input
-              placeholder="14/12/24       10:00"
-              type=""
-              id="from"
-              value=""
-            />
-          </div>
-          <div class="searchline">
-            <img src="./dist/assets/Line 1.png" alt="" />
-          </div>
-          <div class="input-group pl-4">
-            <label for="until ">Until</label>
-            <input
-              placeholder="14/12/24       10:00"
-              type=""
-              id="until"
-              value=""
-            />
-          </div>
-
-          <button class="searchbarimg">
-            <img
-              src="src/assets/hedarSearch-removebg-preview.png"
-              alt="Search Icon"
-            />
-          </button>
-        </div>
+        <div
+          class="absolute bottom-12 w-4/5 left-1/2 -translate-x-1/2"
+          id="search-bar"
+        ></div>
       </div>
     </div>
 
@@ -317,7 +269,7 @@
         </p>
       </div>
     </div>
-
+    <script type="module" src="/src/js/home.js"></script>
     <script type="module" src="main.js"></script>
     <script src="/car_rental_project/src/header.js"></script>
     <script
