@@ -1,4 +1,5 @@
 import { defineConfig } from "vite";
+import customOutpoutPlugin from "./customOutputPlugin";
 
 export default defineConfig({
   build: {
@@ -8,4 +9,5 @@ export default defineConfig({
       },
     },
   },
+  plugins: [customOutpoutPlugin()],
 });
