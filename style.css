@@ -9,16 +9,22 @@
   --grey-clr: #c5c5c5;
   --global-padding: 0rem 8rem;
 }
-.homePageMain {
-  position: relative;
-  display: flex;
-  width: 100%;
-  height: 90vh;
-  padding-left: 160px;
-  padding-right: 160px;
+.main{
   background-image: url(src/assets/headerBgwithout_car.png);
   background-size: cover;
-  display: flex;
+
+}
+.homePageMain {
+  
+
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+
+  padding-left: 160px;
+  padding-right: 160px;
+
+  
 }
 .homepageFirst {
   width: 50%;
@@ -85,7 +91,7 @@
 
 .search-bar {
   position: absolute;
-  bottom: 13%;
+  bottom: 16%;
   display: flex;
   align-items: center;
   background-color: #fff;
