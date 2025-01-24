@@ -14,6 +14,9 @@ module.exports = {
         secondary: {
           DEFAULT: "#141A1C",
         },
+        page: {
+          DEFAULT: "#F5F5F5",
+        },
       },
     },
   },
