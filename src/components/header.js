@@ -1,24 +1,24 @@
-import headerlogo from "../assets/SEATTAC.LOGO_1.png";
+import headerlogo from "../assets/SEATAC-RENTAL-LOGO.png";
 import humburger from "../assets/humburgerAllThreeIcon.jpg.png";
-import user from "../assets/usermainn.png";
 import "./headerStyle.css";
+import user from "../assets/user.png";
 
 export default function header() {
   return `
-    <header>
-    <div class="logo">
-     <img src="${headerlogo}"  alt="header logo" />
+    <div class="px-40 flex justify-between h-full">
+    <div class="h-full">
+     <img class=" h-full -translate-x-6" src="${headerlogo}"  alt="header logo" />
     </div>
-    <div class="headerUserBox">
+    <div class=" flex items-center gap-2">
     
-      <div class="HeaderHumburger">
+      <div class="">
          <img src="${humburger}" alt="huburger logo">
       </div>
-      <div class="HeaderUserLogo">
-        <img src="${user}"   alt="user logo">
+      <div class="bg-[#6DDBBB] w-12 aspect-square rounded-full flex justify-center items-center">
+        <img src="${user}" alt="huburger logo">
       </div>
-      <div > <button>create an account for guest </button> </div>
+      <div class="setac-primary-button">create an account for guest </button> </div>
     </div>
-</header>
+</div>
     `;
 }

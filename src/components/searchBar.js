@@ -1,3 +1,5 @@
+import search from "../assets/search-image.png";
+
 export default function searchBar() {
   return `
      <div class="flex w-full h-16 shadow-[0px_0px_10px_rgba(0,0,0,0.25)] bg-white rounded-full  justify-between items-center p-1" id="search-bar">
@@ -32,8 +34,8 @@ export default function searchBar() {
      </div>     
     
 
-      <div class="rounded-full flex justify-center items-center bg-green-500 aspect-square h-full">
-        1
+      <div class="rounded-full flex justify-center items-center bg-primary aspect-square h-full">
+        <img src="${search}"/>
       </div>
     </div>
  `;

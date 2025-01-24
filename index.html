@@ -12,29 +12,29 @@
     <title>CarRentalWebsite</title>
   </head>
 
-  <body>
-    <div id="header"></div>
+  <body class="bg-[#F5F5F5]">
+    <div class="w-full absolute h-20" id="header"></div>
 
     <!-- home page langing page 1 -->
-    <div class="py-8 bg-[url('/src/assets/homebbgfinal.png')] bg-cover px-40">
+    <div
+      class="bg-[url('/src/assets/homebbgfinal.png')] bg-cover bg-right px-40"
+    >
       <div class="relative flex w-full justify-end">
         <div
-          class="absolute left-0 w-1/2 h-full flex flex-col justify-center gap-3"
+          class="absolute left-0 w-[45%] h-[90%] flex flex-col justify-center"
         >
           <div
             class="flex text-gray-700 font-seatac font-poppins items-center text-2xl relative"
           >
             Need to Rent
             <img
-              class="absolute right-4 top-1/2 w-[70%] -translate-y-1/2"
+              class="absolute right-0 top-1/2 w-[80%] -translate-y-1/2"
               src="./src/assets/homefadecar.png"
               alt=""
             />
           </div>
 
-          <div
-            class="font-seatac text-4xl font-bold text-emerald-500 leading-[48px]"
-          >
+          <div class="heading-primary">
             Luxury Car? <br />
             Send A Request
           </div>
@@ -42,18 +42,22 @@
             Pellentesque habitant morbi tristique senectus et netus et
             malesuada.
           </div>
-          <div class="flex gap-1">
-            <button class="w-44">BECOME A HOST</button>
-            <img src="/src/assets/play-icon.png" alt="playicon" />
+          <div class="py-4 flex gap-1">
+            <div class="setac-primary-button">BECOME A HOST</div>
           </div>
         </div>
-        <div class="w-[70%] relative flex pl-4 pt-6">
-          <img class="w-full" src="src/assets/redCar.png" alt="" />
+
+        <div class="w-3/4 relative flex justify-center py-12">
+          <img
+            class="w-full h-[90vh] object-cover z-[19] scale-95 translate-x-[5%]"
+            src="src/assets/redCar.png"
+            alt=""
+          />
+          <div
+            class="absolute z-[9] w-[70vw] top-3/4 right-0"
+            id="search-bar"
+          ></div>
         </div>
-        <div
-          class="absolute bottom-[14%] w-4/5 left-1/2 -translate-x-1/2"
-          id="search-bar"
-        ></div>
       </div>
     </div>
 
@@ -63,8 +67,8 @@
 
     <div class="SectionBrowse">
       <div class="SectionBrowseHeading">
-        <div class="staticrent">SEATAC RENT</div>
-        <div class="SectionBrowseHeadingBrowse">BROWSE BY MAKE</div>
+        <div class="heading-secondary text-[#C5C5C5]">SEATAC RENT</div>
+        <div class="heading-primary">BROWSE BY MAKE</div>
       </div>
 
       <div class="SectionBrowseParentCar">
@@ -95,17 +99,31 @@
       </div>
     </div>
 
-    <div class="occasion">
-      <div class="Occasionfirst">
-        <img src="src/assets/occasionfirst.png.jpeg" alt="" />
+    <div class="px-40 flex gap-4 pb-8 pt-20">
+      <div class="w-3/5 h-full my-20">
+        <div class="relative flex flex-col justify-center items-center">
+          <div
+            class="absolute h-[400px] left-6 -top-[8%] rounded-tl-[60px] rounded-tr-[60px] w-3/5 bg-primary"
+          ></div>
+          <img
+            class="scale-[85%]"
+            src="src/assets/any_occassion_car_model_background.png"
+            alt=""
+          />
+          <img
+            class="absolute -bottom-[10%] scale-[1.1]"
+            src="src/assets/any_occassion_car_model.png"
+            alt=""
+          />
+        </div>
       </div>
 
-      <div class="OccasionSecond">
-        <div class="destinationHeading">
-          <span class="font-medium">RENT CARS FOR </span>
-          <h2 class="font-extrabold">ANY OCASSION</h2>
+      <div class="w-2/5 my-20 flex flex-col gap-2 justify-center">
+        <div class="">
+          <span class="heading-secondary">RENT CARS FOR </span>
+          <h2 class="heading-primary">ANY OCCASION</h2>
         </div>
-        <div class="OccasionSecondtext">
+        <div class="seatac-paragraph">
           Donec in libero pellentesque mauris blandit aliquet in ut turpis.
           Vestibulum ut purus at velit finibus hendrerit. Mauris venenatis,
           ligula vitae sollicitudin commodo, urna risus luctus ligula, in congue
@@ -117,11 +135,7 @@
           maximus nunc, id laoreet neque facilisis vitae. Ut lobortis purus
           ultrices, consectetur magna vel, bibendum enim. 
         </div>
-        <img
-          class="Occasionbutton"
-          src="src/assets/Occasionbutton.png.jpeg"
-          alt=""
-        />
+        <div class="setac-primary-button w-fit">Explore cars</div>
       </div>
     </div>
 
