@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading-primary {
+  @apply text-[40px] text-primary font-bold leading-[42px];
+}
+
+.heading-secondary {
+  @apply text-[26px] leading-[28px];
+}
+
+.seatac-paragraph {
+  @apply text-[14px] leading-[22px];
+}
+
+.setac-primary-button {
+  @apply bg-primary text-white cursor-pointer rounded-full px-6 h-10 text-[12px] font-medium uppercase leading-[22px] flex justify-center items-center;
+}
