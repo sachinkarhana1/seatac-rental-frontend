@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", serif;
+}
+
+:root {
+  --main-color: #22af86;
+  --padding-left-right: 0 80px;
+}
+.background{
+    background-color: #f5f5f5;
+}
+
+.main {
+    margin: 0 100px;
+    margin-top: 60px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: var(--padding-left-right);
+ 
+}
+.cars-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+  ;
+  
+}
+.cars-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+ height: fit-content;
+}
+.car-img {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+.heart {
+    margin-top: 10px;
+    margin-right: 10px;
+  display: flex;
+  justify-content: end;
+}
+.heading-area {
+ 
+  margin-top: -20px;
+}
+.heading-area h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.details-grid {
+  display:flex;
+  width: fit-content;
+  gap: 10px;
+  
+}
+.details {
+  display: flex;
+}
+img {
+  object-fit: contain;
+}
+.location-area {
+  display: flex;
+  margin-top: 10px;
+}
+.price{
+    
+    align-items: end;
+    justify-items: end;
+    margin-top: 60px;
+    margin-right: 10px;
+}
+.map-section {
+  display: flex;
+ 
+}
+.map-section img {
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
