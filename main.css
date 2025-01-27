@@ -17,5 +17,5 @@
 }
 
 .setac-primary-button {
-  @apply bg-primary text-white rounded-full px-6 h-10 text-[12px] font-medium uppercase leading-[22px] flex justify-center items-center;
+  @apply bg-primary text-white cursor-pointer rounded-full px-6 h-10 text-[12px] font-medium uppercase leading-[22px] flex justify-center items-center;
 }

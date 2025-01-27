@@ -9,22 +9,17 @@
   --grey-clr: #c5c5c5;
   --global-padding: 0rem 8rem;
 }
-.main{
+.main {
   background-image: url(src/assets/headerBgwithout_car.png);
   background-size: cover;
-
 }
 .homePageMain {
-  
-
-margin-top: 20px;
-margin-bottom: 20px;
-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
 
   padding-left: 160px;
   padding-right: 160px;
-
-  
 }
 .homepageFirst {
   width: 50%;
@@ -34,9 +29,8 @@ width: 100%;
   align-items: center;
 }
 
-
 .homePageSecond img {
- object-fit: contain;
+  object-fit: contain;
 }
 .HomePageParentdiv {
   width: 100%;
@@ -108,10 +102,8 @@ input {
   padding: 5px;
   border: none;
   border-radius: 5px;
-  
-
 }
-.searchline{
+.searchline {
   width: 5.5px;
 }
 .input-groupp {
@@ -139,7 +131,7 @@ input[type="text"]::placeholder {
 }
 
 .searchbarimg {
-  background-color:#fff;
+  background-color: #fff;
 }
 
 /* butto */
@@ -281,7 +273,6 @@ input[type="text"]::placeholder {
 }
 
 .SectionArrow {
- 
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
@@ -303,8 +294,6 @@ input[type="text"]::placeholder {
   font-family: "Poppins", serif;
   font-weight: 400;
   width: 50%;
-  
-
 }
 .Occasionbutton {
   padding-top: 20px;
@@ -443,7 +432,7 @@ input[type="text"]::placeholder {
   font-size: 1.2rem;
   text-align: center;
 }
-.read-more button {
+.read-more {
   align-items: center;
   justify-content: center;
   color: white;

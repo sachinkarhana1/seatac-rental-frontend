@@ -13,7 +13,7 @@
   </head>
 
   <body class="bg-[#F5F5F5]">
-    <div class="w-full absolute h-20" id="header"></div>
+    <div class="w-full absolute h-20 z-50" id="header"></div>
 
     <!-- home page langing page 1 -->
     <div
@@ -49,15 +49,15 @@
 
         <div class="w-3/4 relative flex justify-center py-12">
           <img
-            class="w-full h-[90vh] object-cover z-[19] scale-95 translate-x-[5%]"
-            src="src/assets/redCar.png"
+            class="w-full mb-20 object-cover z-[19] scale-95 translate-x-[5%]"
+            src="src/assets/home-page-main-bnr.png"
             alt=""
           />
-          <div
-            class="absolute z-[9] w-[70vw] top-3/4 right-0"
-            id="search-bar"
-          ></div>
         </div>
+        <div
+          class="absolute z-[9] w-[65vw] top-3/4 left-1/2 -translate-x-1/2"
+          id="search-bar"
+        ></div>
       </div>
     </div>
 
@@ -100,7 +100,8 @@
     </div>
 
     <div class="px-40 flex gap-4 pb-8 pt-20">
-      <div class="w-3/5 h-full my-20">
+      <seatac-img-behind-car class="w-3/5 my-20"></seatac-img-behind-car>
+      <!-- <div class="w-3/5 h-full my-20">
         <div class="relative flex flex-col justify-center items-center">
           <div
             class="absolute h-[400px] left-6 -top-[8%] rounded-tl-[60px] rounded-tr-[60px] w-3/5 bg-primary"
@@ -116,7 +117,7 @@
             alt=""
           />
         </div>
-      </div>
+      </div> -->
 
       <div class="w-2/5 my-20 flex flex-col gap-2 justify-center">
         <div class="">
@@ -185,7 +186,7 @@
             <h2>Duis rutrum pharetra mauris.</h2>
           </div>
 
-          <div class="read-more">
+          <div class="setac-primary-button">
             <button>READ MORE</button>
           </div>
         </div>
@@ -200,7 +201,7 @@
             <h2>Duis rutrum pharetra mauris.</h2>
           </div>
 
-          <div class="read-more">
+          <div class="setac-primary-button">
             <button>READ MORE</button>
           </div>
         </div>
@@ -214,7 +215,7 @@
             <h2>Duis rutrum pharetra mauris.</h2>
           </div>
 
-          <div class="read-more">
+          <div class="setac-primary-button">
             <button>READ MORE</button>
           </div>
         </div>
@@ -283,12 +284,8 @@
         </p>
       </div>
     </div>
+    <script src="createCustomElements.js"></script>
     <script type="module" src="/src/js/home.js"></script>
     <script type="module" src="main.js"></script>
-    <script src="/car_rental_project/src/header.js"></script>
-    <script
-      src="https://kit.fontawesome.com/088be698bc.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
