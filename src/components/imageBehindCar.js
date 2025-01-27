@@ -19,5 +19,5 @@ export default function imageBehindCar(background_image, car_image) {
 const seatacImgBehind = document.querySelector("seatac-img-behind-car");
 const background = seatacImgBehind.getAttribute("data-background");
 const car = seatacImgBehind.getAttribute("data-car");
-
+const carImageScale = seatacImgBehind.getAttribute("data-car-size");
 seatacImgBehind.innerHTML = imageBehindCar(background, car);
