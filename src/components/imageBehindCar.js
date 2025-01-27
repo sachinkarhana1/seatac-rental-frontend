@@ -15,3 +15,9 @@ export default function imageBehindCar(background_image, car_image) {
           />
         </div>`;
 }
+
+const seatacImgBehind = document.querySelector("seatac-img-behind-car");
+const background = seatacImgBehind.getAttribute("data-background");
+const car = seatacImgBehind.getAttribute("data-car");
+
+seatacImgBehind.innerHTML = imageBehindCar(background, car);
