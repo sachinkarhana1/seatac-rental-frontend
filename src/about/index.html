@@ -2,64 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../main.css">
+  <title>Document</title>
 </head>
 
 <body>
-    <div id="aboutherosection" class="flex h-svh">
-        <div  class="aboutcarbox w-1/2">
-            <div class="aboutsearchbar">
-                searchbar
-            </div>
-            <div class="aboutplainbox ">
-            <div class="bg-emerald-500 h-[541px] w-[436px] "><div class="aboutcarbg ">
-                <img src="/assets/abouthomebg.png" alt="homebaground.img">
-                <div class="absolute top-0">
-                    <img src="/assets/abouthomecar.png" alt="carimig">
-
-                </div></div>
-                
-                </div>
-            </div>
-
+  <div class="flex bg-gray-00  px-40  py-12 gap-5">
+    <div class="w-3/5 flex h-[80vh] outline ">
+      <div class="relative  h-[450px]  w-[450px] outline bg-[#22AF86] rounded-tr-[60px]  rounded-tl-[60px]">
+        <div class=" flex  right-0 top-0">
+          <img class="absolute  w-[450px] left-20 top-0  h-1/8  " src="/assets/abouthomebg.png" alt="bg.img">
         </div>
-        <div class="abouttextbox w-1/2 bg-slate-500">
-            <div class="textboxheading">
-                <h5>About</h5>
-                <h5>Seatac rental</h5>
-            </div>
-            <div class="textboxpara">
-                <p>Donec quis arcu egestas, aliquam sem sed,
-                    pharetra urna. Sed venenatis erat eu nulla
-                    finibus interdum. Fusce non lectus magna.
-                    Maecenas lacus ipsum, blandit vitae nunc id,
-                    fringilla tempus neque. Integer vitae velit
-                    libero. Cras euismod tempor lectus,
-                    vel tempor turpis consectetur varius.
-                    Etiam faucibus metus vitae elit rutrum tempus.
+        <img class="absolute w-full left-20 bottom-0 translate-y-1/2 " src="/assets/abouthomecar.png" alt="whitecar">
+      </div>
+    </div>
+    <div class="py-16 w-2/5">
+      <div class="flex text-gray-500 font-seatac  items-center text-3xl relative">
+        ABOUT </div>
 
-                    Proin sit amet accumsan eros. Orci varius natoque
-                    penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. In eros urna, varius
-                    in ex quis, aliquet faucibus ante. Pellentesque
-                    maximus, ipsum eu varius dignissim, ex diam
-                    ullamcorper mauris, vel porttitor elit dolor id
-                    est. Nullam vitae enim lorem. Integer blandit
-                    aliquet risus at aliquam. Phasellus vitae pulvinar urna. Integer quis nibh elit.
+      <div class="font-seatac text-[44px] font-bold text-emerald-500 leading-[56px]">
+        Seatac rental</div>
+      <div class="font-seatac text-base font-normal">Donec in libero pellentesque mauris blandit aliquet in ut turpis.
+        Vestibulum ut purus at velit finibus hendrerit. Mauris venenatis, ligula vitae sollicitudin commodo, urna risus
+        luctus ligula, in congue mi dolor a tortor.
 
-                    Nunc pharetra, quam eget mattis luctus, odio tortor
-                    feugiat leo, at pretium orci tellus non libero. 
-                </p>
-            </div>
+        Cras rhoncus molestie placerat. Maecenas faucibus justo elit, varius aliquam turpis congue et. Donec eget velit
+        eu nisi sagittis mollis. Praesent fringilla nibh nibh, eget ultrices purus semper eget. Suspendisse aliquam
+        massa arcu, vitae mattis orci porta vitae. Cras gravida mi ac quam venenatis egestas. Maecenas mattis maximus
+        nunc, id laoreet neque facilisis vitae. Ut lobortis purus ultrices, consectetur magna vel, bibendum enim. </div>
+      <div class="flex gap-1 py-5 "> <button class="w-44">Explore cars</button>
+      </div>
 
 
 
-        </div>
+    </div>
+  </div>
+
+
+  <!-- find section  -->
+  <div class="relative  findSection bg-[#141A1C]">
+    <div class="find pt-14 pb-[300px] px-40 flex flex-col justify-center items-center w-full">
+      <div class="findheading font-seatac text-emerald-500 font-bold text-[42px]">FIND YOUR DRIVE </div>
+      <div class="findtext text-white font-seatac pt-4 pb-4 text-center">Seatac Rantal is the world’s largest car
+        sharing platform, where you can book the perfect car for wherever you’re going from a vibrant community of
+        trusted hosts across the US, UK, Canada, Australia, and France. Flying in from afar or looking for a car down
+        the street, searching for a rugged truck or something smooth and swanky, you can skip the rental car counter and
+        choose from an extraordinary, totally unique selection of nearby vehicles shared by local hosts. Entrepreneurs
+        can take the wheel of their futures by becoming hosts and building car sharing businesses on Seatac Rantal,
+        leveraging our established platform to scale their businesses to meet their goals.
+        <br> <br>
+
+        With an unwavering mission of putting the world’s 1.5 billion cars to better use, Seatac Rantal unlocks the
+        hidden value in idle and underutilized assets, empowering anyone to get in the driver’s seat.
+      </div>
+      <div class="findcar absolute  bottom-0 translate-y-[300px] w-full flex justify-center"><img class="scale-90"
+          src="/assets/aboutfindcar.png" alt=""></div>
+    </div>
+  </div>
+  <!-- find section  -->
+
+
+  <!-- mission section -->
+  <div class="mission pt-[200px] pb-20 pr-40 pl-40  flex gap-4">
+    <div class="missiontext flex flex-col w-[55%] justify-center">
+      <div class="font-seatac font-normal text-[27px]">COMPANY MISSION </div>
+      <div class="text-emerald-500 font-seatac text-[42px] font-bold leading-[50px]">TO PUT THE WORLD'S 1.5 BILLION CARS
+        TO BETTER USE </div>
+    </div>
+    <div class="missioncar w-[45%]">
+      <img src="/assets/aboutmissioncar.png" alt="">
     </div>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+  </div>
+
+  <!-- mission section -->
+
+
+
+  <!-- dive section -->
+
+  <div class="divesection h-[85vh] bg-[url('../assets/aboutdivbg.png')]  bg-black opacity-[90%] object-contain">
+     <div class="text-white text-[40px] text-center font-bold  uppercase">   Want to dive deeper?  </div>
+
+   <div class="grid bg-red-300 grid-cols-3 font-seatac ">
+      <div class="bg-white flex flex-col justify-center items-center">
+        <img class="h-[56px] w-[56px]" src="/assets/homediveteam.png" alt="">
+        From the executive leadership team to the board of 
+        directors, get to know the leadership team pioneering
+         the way to put the world’s 1.5 billion cars to better use.
+         <button class="font-seatac bg-emerald-500 p-[12px] w-[45%] rounded-t-[30px] rounded-b-[30px] m-3">Meet the team</button>
+    </div>
+      <div>join team</div>
+      <div>touch</div>
+
+   </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- dive section -->
+
 </body>
 
 </html>
