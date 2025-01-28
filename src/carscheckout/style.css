@@ -132,9 +132,10 @@
   justify-content: flex-start;
 }
 .grid-elements img {
-  height: 20px;
-  width: 20px;
+  height: 26px;
+  width: 26px;
   justify-content: start;
+  object-fit: contain;
 }
 .grid-item right-section {
   grid-column: span 2;
@@ -145,42 +146,120 @@
   justify-content: center;
 }
 
+.overview{
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+.elements{
+  color: #5E5E5E;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.HOSTED-BY{
+  margin-top: 30px;
+}
+
+.HOSTED-BY h2{
+  font-size: 14px;
+  font-weight: 600;
+}
+.user-details{
+  display: flex;
+  gap: 8px;
+}
+.person-img{
+  border: 1px solid #676767;
+  border-radius: 50px;
+  padding: 8px;
+  height: 90px;
+  width: 90px;
+}
+.name-heading{
+ align-content: center;
+}
+.name-heading h2{
+  font-size: 20px;
+  font-weight: 700;
+ }
+ .name-heading p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #676767;
+ }
+.para {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.para img{
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+
+.para-2 {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.para-2 img{
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+.read-more{
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.read-more button{
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  background-color: rgba(34, 175, 134, 0.21);
+  padding: 3px 8px;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+}
+.read-more button p{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.read-more-one{
+  margin-top: 34px;
+}
+
+.read-more-one button{
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  background-color: rgba(34, 175, 134, 0.21);
+  padding: 3px 8px;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+}
+.read-more-one button p{
+  font-size: 12px;
+  font-weight: 600;
+}
 .description{
   margin-top: 30px;
 }
 
-.description p{
-  font-size: 16px;
-  font-weight: 400;
-  color: var(--main-color)
-}
-.description h2{
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--main-color)
-  
-}
-.para {
-  font-size: 16px;
-  font-weight: 400;
-  color: #696969;
-  width: 784px;
-  margin-top: 20px;
-}
-.read-more{
-  margin-top: 20px;
-}
-.read-more button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: var(--main-color);
-  padding: 12px 50px 12px 50px;
-  border-radius: 99rem;
-  border: none;
-  outline: none;
-}
 .Features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
