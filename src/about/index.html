@@ -9,35 +9,34 @@
 </head>
 
 <body>
-  <div class="flex bg-gray-00  px-40  py-12 gap-5">
-    <div class="w-3/5 flex h-[80vh] outline ">
-      <div class="relative  h-[450px]  w-[450px] outline bg-[#22AF86] rounded-tr-[60px]  rounded-tl-[60px]">
-        <div class=" flex  right-0 top-0">
-          <img class="absolute  w-[450px] left-20 top-0  h-1/8  " src="/assets/abouthomebg.png" alt="bg.img">
-        </div>
-        <img class="absolute w-full left-20 bottom-0 translate-y-1/2 " src="/assets/abouthomecar.png" alt="whitecar">
-      </div>
-    </div>
-    <div class="py-16 w-2/5">
-      <div class="flex text-gray-500 font-seatac  items-center text-3xl relative">
+  <div id="header"></div>
+  <!-- <div class="flex w-[280px]  bg-slate-500"> <img src="/assets/abouthomesearch.png" alt="searching" class="h-full bg-white  items-center pt-1"> <input class="w-full uppercase text-[14px]" type="text" placeholder="City,  airport,  address Or hotel"> </div> -->
+  <div class="flex  px-40  py-24">
+    <seatac-img-behind-car class="w-3/5 " data-background="../../assets/abouthomebg.png"
+      data-car="../../assets/abouthomecar.png"></seatac-img-behind-car>
+    <div class="w-2/5  flex justify-center flex-col">
+      <div class="flex text-black-500 font-seatac  items-center text-3xl relative">
         ABOUT </div>
 
-      <div class="font-seatac text-[44px] font-bold text-emerald-500 leading-[56px]">
-        Seatac rental</div>
-      <div class="font-seatac text-base font-normal">Donec in libero pellentesque mauris blandit aliquet in ut turpis.
-        Vestibulum ut purus at velit finibus hendrerit. Mauris venenatis, ligula vitae sollicitudin commodo, urna risus
-        luctus ligula, in congue mi dolor a tortor.
+      <div class="font-seatac text-[44px] font-bold text-emerald-500 leading-[58px]">
+        SEATAC RENTAL </div>
+      <div class="font-seatac text-base font-normal text-gray-500">Donec quis arcu egestas, aliquam sem sed, pharetra
+        urna.
+        Sed venenatis erat eu nulla finibus interdum. Fusce non lectus magna. Maecenas lacus ipsum, blandit
+        vitae nunc id, fringilla tempus neque. Integer vitae velit libero. Cras euismod tempor lectus, vel tempor
+        turpis consectetur varius. Etiam faucibus metus vitae elit rutrum tempus. <BR></BR>
 
-        Cras rhoncus molestie placerat. Maecenas faucibus justo elit, varius aliquam turpis congue et. Donec eget velit
-        eu nisi sagittis mollis. Praesent fringilla nibh nibh, eget ultrices purus semper eget. Suspendisse aliquam
-        massa arcu, vitae mattis orci porta vitae. Cras gravida mi ac quam venenatis egestas. Maecenas mattis maximus
-        nunc, id laoreet neque facilisis vitae. Ut lobortis purus ultrices, consectetur magna vel, bibendum enim. </div>
-      <div class="flex gap-1 py-5 "> <button class="w-44">Explore cars</button>
-      </div>
-
-
+        Proin sit amet accumsan eros. Orci varius natoque penatibus et magnis dis
+        parturient montes, nascetur ridiculus mus. In eros urna, varius in ex quis, aliquet faucibus ante.
+        Pellentesque maximus, ipsum eu varius dignissim, ex diam ullamcorper mauris, vel porttitor elit dolor id est.
+        Nullam vitae enim lorem. Integer blandit aliquet risus at aliquam. Phasellus vitae pulvinar urna.
+        Integer quis nibh elit.   </div>
 
     </div>
+
+
+
+  </div>
   </div>
 
 
@@ -65,7 +64,7 @@
 
 
   <!-- mission section -->
-  <div class="mission pt-[200px] pb-20 pr-40 pl-40  flex gap-4">
+  <div class="mission pt-[200px] pb-20 pr-40 pl-40  flex gap-2">
     <div class="missiontext flex flex-col w-[55%] justify-center">
       <div class="font-seatac font-normal text-[27px]">COMPANY MISSION </div>
       <div class="text-emerald-500 font-seatac text-[42px] font-bold leading-[50px]">TO PUT THE WORLD'S 1.5 BILLION CARS
@@ -83,26 +82,130 @@
 
   <!-- dive section -->
 
-  <div class="divesection h-[85vh] bg-[url('../assets/aboutdivbg.png')]  bg-black opacity-[90%] object-contain">
-     <div class="text-white text-[40px] text-center font-bold  uppercase">   Want to dive deeper?  </div>
+  <div
+    class="divesection h-[90vh] bg-[url('../assets/aboutdivbg.png')] flex flex-col bg-black opacity-[90%] object-contain px-40 py-20 gap-12  ">
+    <div class="heading-primary-dark text-center uppercase"> Want to dive deeper? </div>
 
-   <div class="grid bg-red-300 grid-cols-3 font-seatac ">
-      <div class="bg-white flex flex-col justify-center items-center">
+    <div class="grid  grid-cols-3 h-max -seatac justify-center items-center gap-8">
+      <div
+        class="bg-white h-full w-full flex flex-col justify-center items-center text-gray-500 rounded-t-[60px] gap-2 p-10">
         <img class="h-[56px] w-[56px]" src="/assets/homediveteam.png" alt="">
-        From the executive leadership team to the board of 
-        directors, get to know the leadership team pioneering
-         the way to put the world’s 1.5 billion cars to better use.
-         <button class="font-seatac bg-emerald-500 p-[12px] w-[45%] rounded-t-[30px] rounded-b-[30px] m-3">Meet the team</button>
+        <div class="text-emerald-500 font-seatac font-bold text-[20px] text-center ">MEET THE TEAM</div>
+
+        <p class="text-center"> From the executive leadership team
+          to the board of directors, get to
+          know the leadership team pioneering
+          the way to put the world’s 1.5
+          billion cars to better use.
+        </p>
+
+        <button class="setac-primary-button">MEET THE TEAM</button>
+      </div>
+      <div
+        class="bg-white h-full w-full flex flex-col justify-center items-center text-center text-gray-500 rounded-t-[60px] gap-2 p-10">
+        <img class="h-[56px] w-[56px]" src="/assets/aboutdiveteam.png" alt="">
+        <div class="text-emerald-500 font-seatac font-bold text-[20px] text-center uppercase ">Join the team </div>
+        Recognized as A Great Place to Work®,
+        Seatac Rental prides itself on creating
+        a supportive,down-to-earth, pioneering,
+        and efficient work environment.
+        <BR></BR>
+        Review open positions and come join us!
+        <button class="setac-primary-button">Join the team
+
+        </button>
+      </div>
+      <div
+        class="bg-white h-full w-full flex flex-col justify-center text-center items-center text-gray-500 rounded-t-[60px] gap-2 p-10">
+        <img class="h-[56px] w-[56px]" src="/assets/aboutdivtouch.png" alt="">
+        <div class="text-emerald-500 font-seatac font-bold text-[20px] text-center uppercase ">
+          Get in touch
+        </div>
+        Reach out to the Seatac Rantal newsdesk
+        for press inquiries, the Seatac
+        Rental press kit, influencer outreach,
+        nvestor relations information, and
+        any other corporate inquiries you may have.
+        <button class="setac-primary-button"> Get in touch</button>
+      </div>
     </div>
-      <div>join team</div>
-      <div>touch</div>
-
-   </div>
-
-
-
   </div>
 
+  <!--dive section  -->
+
+  <!-- journey section -->
+
+  <div class="journey h-[85vh] py-32 px-40 flex items-center gap-[50px]">
+    <div class="journey  w-[65%]">
+      <img src="/assets/journeyCar.png" alt="journeycar">
+    </div>
+    <div class="missiontext flex flex-col w-[35%] justify-center h-full uppercase gap-1.5 ">
+      <div class="font-seatac font-normal text-[27px]">Follow </div>
+      <div class="text-emerald-500 font-seatac text-[42px] font-bold leading-[50px]">along on the journey </div>
+      <div>
+        <p class="text-[#696969] lowercase ">
+          Cruise the Seatac Rantal blog for drool-worthy
+          cars,chronicles of adventures from the road, and
+          the latest from the Seatac Rental newsdesk.</p>
+      </div>
+      <div class="setac-primary-button w-[50%] text-center mt-5 p-5 ">GO TO BLOG</div>
+    </div>
+  </div>
+
+<!-- footer  -->
+
+  <footer class="h-[60vh] w-full bg-[#141A1C] text-white px-40 py-20 flex  justify-center gap-5">
+    <div class="flex-[25%] justify-center  px-5 ">
+      <img src="/src/assets/seatac_footer_logo.png" alt="" class="pb-3" >
+      <div class="flex gap-3" > <img src="/src/assets/footertwi.png" alt="">
+        <img src="/src/assets/footerlind.png" alt="">
+        <img src="/src/assets/footerinsta.png" alt="">
+
+
+      </div>
+    </div>
+    <div class="flex-[20%]  px-10">
+      <h2 class="text-start text-[20px] font-medium pb-3 ">QUICK LINK</h2>
+      <ul  class="text-[14px]" >
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Our Services</li>
+        <li>Rent Car</li>
+        <li>Features </li>
+        <li> Blog </li>
+      </ul>
+    </div>
+    <div class="bg-slate-500 w-[2px]"></div>
+    <div class=" flex-[30%]  px-10">
+      <h2 class="text-start text-[20px] font-medium uppercase pb-3">Contact Now</h2>
+      <div class="text-[14px]">Address:Mauris ultricies tincidunt
+        sollicitudin. Maecenas finibus convallis
+        elit, vestibulum consectetur justo ornare in.
+
+      </div>
+      <br>
+      <div>Call Now: 988 045 678</div> <br>
+      <div>Email: Seatacrental@gmail.com</div>
+     
+
+    </div>
+    <div class="bg-slate-500 w-[1px]"></div>
+    <div class=" flex-[25%]  px-5">
+      <h2 class="text-start text-[20px] font-medium Explore seatac uppercase pb-3">Explore seatac</h2>
+      <div  class="text-[14px]">Nullam condimentum condimentum orci eget auctor.
+        Pellentesque ultrices ornare massa, hendrerit
+        dignissim mi finibus et. Praesent dictum bibendum nulla, <br>
+        <br>
+   
+      </div>
+    </div>
+    
+    
+    
+    
+    
+  </footer>
+  <div class="text-white bg-[#141A1C]  p-6 text-center">Copyright © 2024 Seatac Rental. All rights reserved.</div>
 
 
 
@@ -115,7 +218,11 @@
 
 
 
-  <!-- dive section -->
+
+  <script type="module" src="../js/about.js"></script>
+  <script type="module" src="../../main.js">
+    
+  </script>
 
 </body>
 
