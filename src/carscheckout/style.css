@@ -8,7 +8,7 @@
 
 :root {
   --main-color: #22af86;
-  --padding-left-right: 80px;
+  --padding-left-right:0px 160px 0px 160px;
 }
 
 .left-side {
@@ -27,7 +27,6 @@
   grid-template-rows: 50% 50%;
   grid-gap: 10px;
   width: 80%;
-
   margin: 0px auto;
 }
 
@@ -78,8 +77,9 @@
 }
 
 .grid-item-span > p{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
+  color:#666666 ;
 }
 .star {
   display: flex;
@@ -168,6 +168,7 @@
 .user-details{
   display: flex;
   gap: 8px;
+  margin-top: 30px;
 }
 .person-img{
   border: 1px solid #676767;
@@ -240,8 +241,6 @@
 }
 
 .read-more-one button{
-  font-size: 14px;
-  font-weight: 400;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -260,6 +259,63 @@
   margin-top: 30px;
 }
 
+.reuse{
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+.heading-main{
+  font-size: 14px;
+  font-weight: 600;
+}
+.img-para-holder{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.img-para-holder img{
+height: 24px;
+width: 24px;
+object-fit: contain;
+
+}
+.reuse-p1{
+  margin-top: 4px;
+  font-size:14px;
+  font-weight:400;
+  color: #4E4E4E;
+}
+.sub-heading{
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color:#4E4E4E;
+}
+.reuse-p2{
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color:#AAAAAA;
+}
+.reuse-read-more{
+  margin-top: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-color);
+  background-color: rgba(34, 175, 134, 0.21);
+  padding: 3px 8px;
+  border-radius: 22px;
+  border: none;
+  outline: none;
+}
+.reuse-read-more button p{
+  font-size: 12px;
+  font-weight: 600;
+}
+.progress-bar-holder{
+  margin-top: 24px;
+}
+
 .Features-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -274,12 +330,19 @@
 }
 .progress-bar {
   display: grid;
-  grid-template-columns: 20% 2fr 1fr;
-  margin-top: 4px;
+  grid-template-columns: 16% 2fr 1fr;
+  margin-top: 8px;
   gap: 10px;
 }
+.last-heading{
+  padding: var(--padding-left-right);
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 44px;
+  margin-bottom: 68px;
+}
 .tittle-section h3 {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 .value-section {
@@ -288,6 +351,18 @@
 .bar-section img {
   object-fit: contain;
   width: 100%;
+  opacity: 20%;
+}
+.progress-para{
+  font-size: 10px;
+  font-weight: 400;
+  color: #5E5E5E;
+}
+.book-this-para{
+  font-size: 14px;
+  font-weight: 400;
+  color: #1C1C1C;
+  margin-top: 40px;
 }
 .review-card {
   display: flex;
@@ -329,16 +404,14 @@
   align-items: center;
  
 }
-.partners-logo {
+.map {
   justify-content: center;
-  display: flex;
-  padding-left: 140px;
-  padding-right: 140px;
-  margin-top: 60px;
+  padding: var(--padding-left-right);
+  margin-top: 50px;
   
 }
 
-.partners-logo img {
+.map img {
   width: 100%;
   object-fit: contain;
 }
