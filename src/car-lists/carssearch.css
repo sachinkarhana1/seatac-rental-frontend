@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", serif;
+}
+
+:root {
+  --main-color: #22af86;
+  --padding-left-right: 0 160px;
+}
+
+.filters {
+  display: flex;
+  margin-top: 28px;
+  margin-bottom: 80px;
+  width: 100%;
+  padding: var(--padding-left-right);
+  gap: 4px; 
+}
+.filters button {
+  display: flex;
+  gap: 4px;
+  width: 14%;
+  border: 1.6px solid #696969;
+  padding: 6px 6px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.filters button:first-child {
+  width: 64px;
+  height: 56px;
+  padding: 16px 12px;
+ border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9D9D9;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+  padding: var(--padding-left-right);
+}
+.cars-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cars-grid {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+  gap: 10px;
+  height: fit-content;
+}
+.car-img {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+.heart {
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: end;
+}
+.heading-area {
+  margin-top: -20px;
+}
+.heading-area h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.details-grid {
+  display: flex;
+  width: fit-content;
+  gap: 10px;
+}
+.details {
+  display: flex;
+}
+img {
+  object-fit: contain;
+}
+.location-area {
+  display: flex;
+  margin-top: 10px;
+}
+.price {
+  align-items: end;
+  justify-items: end;
+  margin-top: 60px;
+  margin-right: 10px;
+}
+.map-section {
+  display: flex;
+}
+.map-section img {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+.partners-logo {
+  justify-content: center;
+  display: flex;
+  padding-left: 140px;
+  padding-right: 140px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.partners-logo img {
+  width: 100%;
+  object-fit: contain;
+}

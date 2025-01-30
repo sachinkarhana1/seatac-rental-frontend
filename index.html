@@ -4,55 +4,54 @@
 <body class="bg-[#F5F5F5]">
   <div class="w-full absolute h-20 z-50" id="header"></div>
 
-  <!-- home page langing page 1 -->
-  <div class="bg-[url('/src/assets/homebbgfinal.png')] bg-cover bg-right px-40">
-    <div class="relative flex w-full justify-end">
-      <div class="absolute left-0 w-[45%] h-[90%] flex flex-col justify-center">
-        <div class="flex text-gray-700 font-seatac font-poppins items-center text-2xl relative">
-          Need to Rent
-          <img class="absolute right-0 top-1/2 w-[80%] -translate-y-1/2" src="./src/assets/homefadecar.png" alt="" />
+    <!-- home page langing page 1 -->
+    <div
+      class="flex flex-col justify-center items-center bg-[url('/src/assets/homebbgfinal.png')] bg-cover bg-[57%_center] md:bg-[right_20%] px-5 pt-24 pb-8 md:px-12 lg:px-40 md:h-auto md:pb-24"
+    >
+      <div
+        class="w-full relative flex flex-col md:flex-row justify-between md:justify-end"
+      >
+        <div
+          id="bnr-text"
+          class="z-[29] flex flex-col justify-center md:w-2/5 md:absolute md:left-0 md:top-1/2 md:-translate-y-1/2"
+        >
+          <div class="heading-secondary relative">
+            Need to Rent
+            <img
+              class="hidden md:flex absolute -right-10 top-1/2 w-[80%] -translate-y-1/2 md:translate-x-[5%]"
+              src="./src/assets/homefadecar.png"
+              alt=""
+            />
+          </div>
+
+          <div class="heading-primary">
+            Luxury Car? <br />
+            Send A Request
+          </div>
+          <div class="hidden font-poppins text-base font-normal w-3/4 md:block">
+            Pellentesque habitant morbi tristique senectus et netus et
+            malesuada.
+          </div>
+          <div class="py-4 flex gap-1">
+            <div class="setac-primary-button">BECOME A HOST</div>
+          </div>
         </div>
 
-        <div class="heading-primary">
-          Luxury Car? <br />
-          Send A Request
-        </div>
-        <div class="font-poppins text-base font-normal w-3/4">
-          Pellentesque habitant morbi tristique senectus et netus et
-          malesuada.
-        </div>
-        <div class="py-4 flex gap-1">
-          <div class="setac-primary-button">BECOME A HOST</div>
+        <div
+          class="w-full md:w-3/4 relative flex z-[11] justify-center md:translate-y-0"
+          id="bnr-img"
+        >
+          <img
+            class="w-full object-cover scale-95 z-[19] md:translate-x-[5%]"
+            src="src/assets/home-page-main-bnr.png"
+            alt=""
+          />
         </div>
       </div>
-
-      <div class="w-3/4 relative flex justify-center py-12">
-        <img class="w-full mb-20 object-cover z-[19] scale-95 translate-x-[5%]" src="src/assets/home-page-main-bnr.png"
-          alt="" />
-      </div>
-      <div class="absolute z-[9] w-[65vw] top-3/4 left-1/2 -translate-x-1/2" id="search-bar"></div>
-    </div>
-    <img class="absolute -right-16 scale-90 mt-8 top-1/2 -translate-y-1/2" src="src/assets/redCar.png" alt="" />
-  </div>
-  </div>
-
-
-
-  <div class="" id="search-bar">
-
-  </div>
-  </div>
-  </div>
-  </div>
-
-  <!-- home page langing page 1 -->
-
-  <!-- browse my make -->
-
-  <div class="SectionBrowse">
-    <div class="SectionBrowseHeading">
-      <div class="staticrent">SEATAC RENT</div>
-      <div class="SectionBrowseHeadingBrowse">BROWSE BY MAKE</div>
+      <div
+        class="w-full -translate-y-[25%] h-auto md:-translate-y-[30%] lg:w-[90%]"
+        id="search-bar"
+      ></div>
     </div>
 
     <!-- home page langing page 1 -->
@@ -76,26 +75,11 @@
       </div>
     </div>
 
-    <div class="px-40 flex gap-4 pb-8 pt-20">
-      <seatac-img-behind-car class="w-3/5 my-20" data-background="src/assets/any_occassion_car_model_background.png"
-        data-car="src/assets/any_occassion_car_model.png"></seatac-img-behind-car>
-      <!-- <div class="w-3/5 h-full my-20">
-        <div class="relative flex flex-col justify-center items-center">
-          <div
-            class="absolute h-[400px] left-6 -top-[8%] rounded-tl-[60px] rounded-tr-[60px] w-3/5 bg-primary"
-          ></div>
-          <img
-            class="scale-[85%]"
-            src="src/assets/any_occassion_car_model_background.png"
-            alt=""
-          />
-          <img
-            class="absolute -bottom-[10%] scale-[1.1]"
-            src="src/assets/any_occassion_car_model.png"
-            alt=""
-          />
-        </div>
-      </div> -->
+    <div class="px-5 lg:px-40 flex flex-col gap-4 pb-8 pt-20">
+      <seatac-img-behind-car
+        class="w-full outline md:w-3/5 my-20"
+        id="design-car-rental"
+      ></seatac-img-behind-car>
 
       <div class="w-2/5 my-20 flex flex-col gap-2 justify-center">
         <div class="">
@@ -143,18 +127,15 @@
         </div>
       </div>
     </div>
-    <div class="SectionArrow">
-      <img src="src/assets/Arrrow.png" alt="arrowimg" />
-    </div>
-  </div>
 
-
-  <!-- occasion -->
-  <div class="bg-gray-100  px-24  py-20">
-    <div class=" h-[600px] lg:h-[600px] flex ">
-      <div class="firstOccasion ">
-        <img src="/src/assets/occasionfirst.png.jpeg" alt="">
-
+    <div class="daydreams-section">
+      <div>
+        <div class="top-para">
+          <p>Seatac rent</p>
+        </div>
+        <div class="heading-top">
+          <h2 class="text-6xl font-bold">Fuel your daydreams</h2>
+        </div>
       </div>
       <div class="three-images">
         <div class="daydream-section-card">
@@ -194,137 +175,28 @@
           <button>READ MORE</button>
         </div>
       </div>
-    </div>
-
-
-
-  </div>
-  </div>
-
-
-
-
-  <div class="Destination">
-    <div class="destinationHeading">
-      <span>BROWSE BY</span>
-      <h2>DESTINATION</h2>
-    </div>
-
-    <div class="CircleDestination">
-      <div class="CircleDestinationFirst">
-        <img src="src/assets/destinationOne.png.jpeg" alt="" />
-        <span>Seatac rent</span>
-        <h4>Bristol</h4>
-      </div>
-      <div class="CircleDestinationSecond">
-        <img src="src/assets/destinationSecond.png.jpeg" alt="" />
-        <span>Seatac rent</span>
-        <h4>Los Angeles</h4>
-      </div>
-
-      <div class="CircleDestinationThrid">
-        <img src="src/assets/destinationthree.png.jpeg" alt="" />
-        <span>Seatac rent</span>
-        <h4>Las Vegas</h4>
+      <div class="daydream-section-car-display">
+        <img src="src/assets/sport_car_107_15701 1.png" alt="" />
       </div>
     </div>
-  </div>
-  <div class="daydreams-section">
-    <div>
-      <div class="top-para">
-        <p>Seatac rent</p>
-      </div>
-      <div class="heading-top">
-        <h2 class="text-6xl font-bold">Fuel your daydreams</h2>
-      </div>
-    </div>
-    <div class="three-images">
-      <div class="daydream-section-card">
-        <img src="src/assets/image0.png" alt="" />
 
-        <div class="small-text">
-          <p>Featured blog</p>
+    <div class="section-5">
+      <div class="recent-rental-reviews">
+        <div class="top-para">
+          <p>Seatac rent</p>
         </div>
-
-        <div class="lower-heading">
-          <h2>Duis rutrum pharetra mauris.</h2>
-        </div>
-
-        <div class="read-more">
-          <button>READ MORE</button>
+        <div class="heading-top">
+          <h2 class="text-6xl font-bold">recent rental reviews</h2>
         </div>
       </div>
-      <div class="daydream-section-card">
-        <img src="src/assets/image.png" alt="" />
-
-        <div class="small-text">
-          <p>Featured blog</p>
-        </div>
-
-        <div class="lower-heading">
-          <h2>Duis rutrum pharetra mauris.</h2>
-        </div>
-
-        <div class="read-more">
-          <button>READ MORE</button>
-        </div>
-      </div>
-      <div class="daydream-section-card">
-        <img src="src/assets/image1.png" alt="" />
-        <div class="small-text">
-          <p>Featured blog</p>
-        </div>
-
-        <div class="lower-heading">
-          <h2>Duis rutrum pharetra mauris.</h2>
-        </div>
-
-        <div class="read-more">
-          <button>READ MORE</button>
-        </div>
-      </div>
-    </div>
-    <div class="daydream-section-car-display">
-      <img src="src/assets/sport_car_107_15701 1.png" alt="" />
-    </div>
-  </div>
-  <div class="section-5">
-    <div class="recent-rental-reviews">
-      <div class="top-para">
-        <p>Seatac rent</p>
-      </div>
-      <div class="heading-top">
-        <h2 class="text-6xl font-bold">recent rental reviews</h2>
-      </div>
-    </div>
-    <div class="review"><img src="src/assets/dfdf 1.png" alt="" /></div>
-    <div class="partners-logo">
-      <img src="src/assets/css 1.png" alt="" />
-    </div>
-  </div>
-
-  <div class="footerparent">
-    <div class="footer-col logo-col">
-      <img src="src/assets/seatac_footer_logo.png" alt="Seatac Logo" />
-      <div class="iconImg">
-        <img src="src/assets/footertwi.png" alt="Twitter" />
-        <img src="src/assets/footerlind.png" alt="LinkedIn" />
-        <img src="src/assets/footerinsta.png" alt="Instagram" />
+      <div class="review"><img src="src/assets/dfdf 1.png" alt="" /></div>
+      <div class="partners-logo">
+        <img src="src/assets/css 1.png" alt="" />
       </div>
     </div>
 
-    <div class="footer-col">
-      <h4>Quick Links</h4>
-      <br />
-      <ul class="links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Our Services</a></li>
-        <li><a href="#">Rent Car</a></li>
-        <li><a href="#">Future</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-    </div>
+    <div id="footer"></div>
+
     <script src="createCustomElements.js"></script>
     <script type="module" src="/src/js/home.js"></script>
     <script type="module" src="main.js"></script>

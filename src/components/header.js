@@ -4,7 +4,7 @@ import user from "../assets/user.png";
 
 export default function header() {
   return `
-    <div class="px-40 flex justify-between h-full">
+    <div class="px-5 flex justify-between h-full md:px-20 lg:px-40">
     <div class="h-full">
      <img class=" h-full -translate-x-6" src="${headerlogo}"  alt="header logo" />
     </div>
@@ -13,10 +13,10 @@ export default function header() {
       <div class="">
          <img src="${humburger}" alt="huburger logo">
       </div>
-      <div class="bg-[#6DDBBB] w-10 cursor-pointer aspect-square rounded-full flex justify-center items-center">
+      <div class="hidden bg-[#6DDBBB] w-10 cursor-pointer aspect-square rounded-full md:flex justify-center items-center">
         <img src="${user}" alt="huburger logo">
       </div>
-      <div class="setac-primary-button">create an account for guest </button> </div>
+      <div class="hidden setac-primary-button md:flex">create an account for guest </button> </div>
     </div>
 </div>
     `;
