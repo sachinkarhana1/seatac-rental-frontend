@@ -1,8 +1,7 @@
-customElements.define(
-  "seatac-img-behind-car",
-  class extends HTMLElement {
-    constructor() {
-      super();
-    }
+class SeatacRentalDesign extends HTMLElement {
+  constructor() {
+    super();
   }
-);
+}
+
+customElements.define("seatac-img-behind-car", SeatacRentalDesign);
