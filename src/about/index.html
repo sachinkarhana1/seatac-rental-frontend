@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../main.css" />
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
   </head>
 
   <body>
     <div id="header"></div>
+    <div class="flex justify-start pt-[25px]  px-40 py-4">
 
-    <div class="flex px-40 py-24">
+      <div class="flex items-center border-b border-gray-300 w-full max-w-md ">
+        <i class="fas fa-search   "></i>
+        <input 
+            type="text" 
+            placeholder="City, Airport, Address Or Hotel" 
+            class="w-full px-2 py-1 text-sm text-gray-700 focus:outline-none" 
+        />
+    </div>
+    </div>
+
+    
+
+    <div class="flex px-40 py-12">
       <seatac-img-behind-car
         class="w-3/5"
         id="design-seatac"
@@ -44,6 +61,51 @@
         </div>
       </div>
     </div>
+
+
+
+    <!-- ai -->
+    <div class="bg-gray-100">
+      <div class="flex flex-col md:flex-row px-6 md:px-40 py-12 space-y-6 md:space-y-0">
+          <seatac-img-behind-car
+              class="w-full md:w-3/5"
+              id="design-seatac"
+          ></seatac-img-behind-car>
+          
+          <div class="w-full md:w-2/5 flex justify-center flex-col">
+              <div
+                  class="flex text-black-500 font-seatac items-center text-2xl md:text-3xl relative"
+              >
+                  ABOUT
+              </div>
+  
+              <div
+                  class="font-seatac text-3xl md:text-[44px] font-bold text-emerald-500 leading-[40px] md:leading-[58px]"
+              >
+                  SEATAC RENTAL
+              </div>
+              <div class="font-seatac text-sm md:text-base font-normal text-gray-500">
+                  Donec quis arcu egestas, aliquam sem sed, pharetra urna. Sed venenatis
+                  erat eu nulla finibus interdum. Fusce non lectus magna. Maecenas lacus
+                  ipsum, blandit vitae nunc id, fringilla tempus neque. Integer vitae
+                  velit libero. Cras euismod tempor lectus, vel tempor turpis
+                  consectetur varius. Etiam faucibus metus vitae elit rutrum tempus.
+                  <br />
+  
+                  Proin sit amet accumsan eros. Orci varius natoque penatibus et magnis
+                  dis parturient montes, nascetur ridiculus mus. In eros urna, varius in
+                  ex quis, aliquet faucibus ante. Pellentesque maximus, ipsum eu varius
+                  dignissim, ex diam ullamcorper mauris, vel porttitor elit dolor id
+                  est. Nullam vitae enim lorem. Integer blandit aliquet risus at
+                  aliquam. Phasellus vitae pulvinar urna. Integer quis nibh elit.   
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+  <!-- ai -->
 
     <!-- find section  -->
     <div class="relative findSection bg-[#141A1C]">
