@@ -126,3 +126,35 @@ img {
   width: 100%;
   object-fit: contain;
 }
+
+@media (max-width: 768px) { 
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .price{
+    margin-top: 0px;
+  }
+  .heading-area h2{
+    font-size: 1.5rem;
+  }
+  .location-area{
+    margin-top: 0px;
+  }
+  .main {
+padding: 0px;
+  }
+  .cars-grid{
+    grid-template-columns: 1fr 2fr;
+
+  }
+  .partners-logo {
+    justify-content: center;
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
