@@ -5,23 +5,25 @@
 @tailwind utilities;
 
 .heading-primary {
-  @apply text-[30px] md:text-[40px] text-primary font-bold leading-9 md:leading-[42px];
+  @apply text-[30px] font-seatac md:text-[40px] text-primary font-bold leading-9 md:leading-[42px];
 }
 .heading-primary-dark {
-  @apply text-[30px] md:text-[40px] text-white font-bold leading-8 md:leading-[42px];
-}
-.heading-primary-dark {
-  @apply text-[40px] text-white font-bold leading-[42px];
+  @apply text-[30px] font-seatac md:text-[40px] text-white font-bold leading-8 md:leading-[42px];
 }
 
+
 .heading-secondary {
-  @apply text-[20px] leading-6 md:text-[26px] md:leading-7;
+  @apply text-[20px] font-seatac leading-6 md:text-[26px] md:leading-7;
 }
 
 .seatac-paragraph {
-  @apply text-[14px] leading-[22px];
+  @apply text-[14px] font-seatac leading-[22px];
 }
 
 .setac-primary-button {
-  @apply bg-primary w-fit text-white cursor-pointer rounded-full px-5 py-2 text-[12px] font-medium uppercase leading-[22px] justify-center items-center md:px-10 md:py-3;
+  @apply bg-primary text-white cursor-pointer rounded-full px-5 py-2 text-[12px] font-seatac font-medium uppercase leading-[22px] justify-center items-center md:px-10;
+}
+
+.seatac-card {
+  @apply font-seatac rounded-tl-[64px] rounded-tr-[64px] flex flex-col justify-center items-center;
 }

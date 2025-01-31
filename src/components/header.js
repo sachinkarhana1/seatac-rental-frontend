@@ -4,9 +4,9 @@ import user from "../assets/user.png";
 
 export default function header() {
   return `
-    <div class="px-5 flex justify-between h-full md:px-20 lg:px-40">
-    <div class="h-full">
-     <img class=" h-full -translate-x-6" src="${headerlogo}"  alt="header logo" />
+    <div class="px-5 flex justify-between h-full md:px-20 lg:px-24 xl:px-36">
+    <div class="h-full w-1/3 max-w-40">
+     <img class=" h-full w-full object-contain -translate-x-4" src="${headerlogo}"  alt="header logo" />
     </div>
     <div class=" flex items-center gap-2">
     
