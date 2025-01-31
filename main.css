@@ -23,5 +23,5 @@
 }
 
 .setac-primary-button {
-  @apply bg-primary text-white cursor-pointer rounded-full px-5 py-2 text-[12px] font-medium uppercase leading-[22px] justify-center items-center md:px-10 md:py-3;
+  @apply bg-primary w-fit text-white cursor-pointer rounded-full px-5 py-2 text-[12px] font-medium uppercase leading-[22px] justify-center items-center md:px-10 md:py-3;
 }
