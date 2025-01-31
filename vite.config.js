@@ -11,6 +11,7 @@ export default defineConfig({
         about: "src/about/index.html",
         working: "src/how-seatac-rental-works/index.html",
         carlist: "src/car-lists/index.html",
+        booking: "src/booked-a-car/index.html"
       },
     },
   },

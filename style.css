@@ -123,6 +123,12 @@ input[type="text"]::placeholder {
   color: #aaa;
 }
 
+.tns-controls {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+
 .search-button {
   border: none;
   border-radius: 5px;
