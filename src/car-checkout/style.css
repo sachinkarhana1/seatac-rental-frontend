@@ -436,5 +436,13 @@ margin-top: 10rem;
     grid-template-columns: 2fr 2fr 1fr;
 
 }
+.map {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.last-heading {
+  padding-left: 20px;
+  padding-right: 20px;
+}
   
 }
