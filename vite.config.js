@@ -6,7 +6,12 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: "index.html",
-        cardetails: "src/cardetails/index.html",
+        cardetails: "src/car-detail/index.html",
+        checkout: "src/car-checkout/index.html",
+        about: "src/about/index.html",
+        working: "src/how-seatac-rental-works/index.html",
+        carlist: "src/car-lists/index.html",
+        booking: "src/booked-a-car/index.html"
       },
     },
   },

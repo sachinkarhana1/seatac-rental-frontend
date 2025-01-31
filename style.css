@@ -123,6 +123,12 @@ input[type="text"]::placeholder {
   color: #aaa;
 }
 
+.tns-controls {
+  justify-content: center;
+  display: flex;
+  gap: 1rem;
+}
+
 .search-button {
   border: none;
   border-radius: 5px;
@@ -458,8 +464,8 @@ input[type="text"]::placeholder {
 /* section 5 start fron here --> */
 
 .section-5 {
-  height: 90vh;
-  margin-top: 300px;
+  height: auto;
+  margin: 300px 0 100px 0;
   padding: var(--global-padding);
 }
 .three-review {
@@ -548,13 +554,13 @@ ul.links a {
 ul.links a:hover {
   text-decoration: underline;
 }
-.copyright-text{
+.copyright-text {
   align-items: center;
   justify-items: center;
   background-color: black;
   padding-bottom: 60px;
 }
-.copyright-text p{
+.copyright-text p {
   font-size: 16px;
   font-weight: 400;
   color: white;
