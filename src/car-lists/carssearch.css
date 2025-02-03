@@ -8,15 +8,14 @@
 
 :root {
   --main-color: #22af86;
-  --padding-left-right: 0 160px;
+  
 }
 
 .filters {
   display: flex;
   margin-top: 28px;
-  margin-bottom: 80px;
-  width: 100%;
-  padding: var(--padding-left-right);
+  margin-bottom: 28px;
+  
   gap: 4px; 
 }
 .filters button {
@@ -52,7 +51,6 @@
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   gap: 20px;
-  padding: var(--padding-left-right);
 }
 .cars-section {
   display: flex;
@@ -60,24 +58,29 @@
   gap: 20px;
 }
 .cars-grid {
+  position: relative;
   display: grid;
-  grid-template-columns: 0.6fr 1fr;
-  gap: 10px;
-  height: fit-content;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  outline: auto;
 }
 .car-img {
+  width: 100%;
   object-fit: cover;
-  justify-content: center;
-  align-items: center;
+  grid-column:  span 2;
+  grid-row: span 2;
+  outline: auto;
 }
+
 .heart {
+  position: absolute;
   margin-top: 10px;
   margin-right: 10px;
   display: flex;
   justify-content: end;
 }
 .heading-area {
-  margin-top: -20px;
+  grid-row: span 3;
 }
 .heading-area h2 {
   font-size: 30px;
@@ -86,6 +89,7 @@
 
 .details-grid {
   display: flex;
+  flex-wrap: wrap;
   width: fit-content;
   gap: 10px;
 }
@@ -93,7 +97,8 @@
   display: flex;
 }
 img {
-  object-fit: contain;
+  object-fit: cover;
+  
 }
 .location-area {
   display: flex;
@@ -102,8 +107,7 @@ img {
 .price {
   align-items: end;
   justify-items: end;
-  margin-top: 60px;
-  margin-right: 10px;
+  
 }
 .map-section {
   display: flex;
@@ -126,6 +130,12 @@ img {
   width: 100%;
   object-fit: contain;
 }
+.details img{
+object-fit: contain;
+}
+.cars-section{
+  max-width: 500px;
+}
 
 @media (max-width: 768px) { 
   .main {
@@ -139,16 +149,19 @@ img {
   .heading-area h2{
     font-size: 1.5rem;
   }
-  .location-area{
-    margin-top: 0px;
+  .location-area p{
+    font-size: 12px;
+    font-weight: 400;
   }
+  .price{
+    font-size: 12px;
+    font-weight: 400;
+  }
+ 
   .main {
 padding: 0px;
   }
-  .cars-grid{
-    grid-template-columns: 1fr 2fr;
-
-  }
+  
   .partners-logo {
     justify-content: center;
     display: flex;
@@ -156,5 +169,156 @@ padding: 0px;
     padding-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+  .cars-section{
+    padding: 0px 20px;
+  }
+  .filters{
+    padding: 0px;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+  }
+  .filters button{
+    width: fit-content;
+  }
+  #Deliver-to-me{
+    display: none;
+  }
+  #Electric{
+    display:none;
+  }
+  #Seats{
+    display: none;
+  }
+  #Years{
+    display: none;
+  }
+  #Make{
+    display: none ;
+  }
+  .car-img{
+    width: 40%;
+  }
+  .text-area{
+    width: 60%;
+  }
+  .map-section{
+    padding: 0px 20px;
+  }
+  .partners-logo{
+    padding: 0px 20px;
+  }
+  .cars-section {
+    gap: 4px;
+  }
+  .details p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .details-grid{
+    gap: 2px;
+  }
+  .details img{
+    height: 15px;
+    width: 15px;
+    object-fit: contain;
+  }
+  .location-area img{
+    height: 15px;
+    width: 15px;
+    object-fit: contain;
+  }
+  .wishlist{
+    height: 15px;
+    width: 15px;
+    object-fit: contain;
+  }
+  .cars-section{
+    max-width: 500px;
+  }
+  
+
+}
+
+.cars-list {
+  box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: row;
+}
+
+.car-display {
+  grid-column: span 2;
+}
+.car-display img{
+height: 100%;
+}
+.car-name{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.wishlist {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 99;
+}
+.car-name {
+  grid-column: span 4;
+  grid-row-start: 2;
+  /* outline: auto; */
+  padding: 14px;
+}
+.additional-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: span 3;
+  /* outline:auto; */
+  padding: 14px;
+}
+details p{
+  font-size: 15px;
+  font-weight: 400;
+}
+.additional-details{
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px){
+ 
+    .car-name {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: none;
+  }
+  .car-display {
+    grid-row: span 2;
+  }
+  .cars-section{
+    max-width: 100%;
+  }
+  .car-name{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .details p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .location-area{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .location-area img{
+    height: 24px;
+    -webkit-column-width: 24px;
+  }
+  .price{
+    font-size: 20px;
+    font-weight: 400;
   }
 }
