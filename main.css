@@ -5,23 +5,22 @@
 @tailwind utilities;
 
 .heading-primary {
-  @apply text-[30px] font-seatac md:text-[40px] text-primary font-bold leading-9 md:leading-[42px];
+  @apply text-[30px] font-seatac lg:text-[40px] text-primary font-bold leading-9 lg:leading-[46px];
 }
 .heading-primary-dark {
-  @apply text-[30px] font-seatac md:text-[40px] text-white font-bold leading-8 md:leading-[42px];
+  @apply text-[30px] font-seatac lg:text-[40px] text-white font-bold leading-8 lg:leading-[42px];
 }
 
-
 .heading-secondary {
-  @apply text-[20px] font-seatac leading-6 md:text-[26px] md:leading-7;
+  @apply text-[20px] font-seatac leading-6 md:text-[22px] lg:text-[24px] lg:leading-7;
 }
 
 .seatac-paragraph {
-  @apply text-[14px] font-seatac leading-[22px];
+  @apply text-[12px] font-seatac leading-[18px] md:text-[14px] md:leading-5;
 }
 
 .setac-primary-button {
-  @apply bg-primary text-white cursor-pointer rounded-full px-5 py-2 text-[12px] font-seatac font-medium uppercase leading-[22px] justify-center items-center md:px-10;
+  @apply bg-primary text-white cursor-pointer rounded-full px-2 w-fit py-[10px] text-[12px] font-seatac font-medium uppercase leading-[22px] justify-center items-center md:px-10;
 }
 
 .seatac-card {
