@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 .heading-primary {
-  @apply text-[30px] font-seatac lg:text-[40px] text-primary font-bold leading-9 lg:leading-[42px];
+  @apply text-[30px] font-seatac lg:text-[40px] text-primary font-bold leading-9 lg:leading-[46px];
 }
 .heading-primary-dark {
   @apply text-[30px] font-seatac lg:text-[40px] text-white font-bold leading-8 lg:leading-[42px];
 }
 
 .heading-secondary {
-  @apply text-[20px] font-seatac leading-6 lg:text-[26px] lg:leading-7;
+  @apply text-[20px] font-seatac leading-6 md:text-[22px] lg:text-[24px] lg:leading-7;
 }
 
 .seatac-paragraph {
