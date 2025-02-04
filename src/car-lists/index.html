@@ -11,30 +11,31 @@
     <div id="header"></div>
     <div id="searchBar"></div>
 
-    <div class="filters">
-      <button><img src="../assets/filter 1.png" alt="" /></button>
-      <button>Daily price</button>
-      <button>Vehicle type</button>
-      <button>Make</button>
-      <button>Years</button>
-      <button>Seats</button>
-      <button>Electric</button>
-      <button>Deliver to me</button>
-      <button><img src="../assets/filter 1.png" alt="" /> All filters</button>
+    <div class="filters px-5 md:px-12 lg:px-24 xl:px-36">
+      <button id="firstButton"><img src="../assets/filter 1.png" alt="" /></button>
+      <button id="Daily-price">Daily price</button>
+      <button id="Vehicle-type">Vehicle type</button>
+      <button id="Make">Make</button>
+      <button id="Years">Years</button>
+      <button id="Seats">Seats</button>
+      <button id="Electric">Electric</button>
+      <button id="Deliver-to-me">Deliver to me</button>
+      <button id="All-filters"><img src="../assets/filter 1.png" alt="" /> All filters</button>
     </div>
-    <div class="main">
+    <div class="main px-5 md:px-12 lg:px-24 xl:px-36">
       <div class="cars-section">
-        <div class="cars-grid">
-          <div class="car-img">
+        <div class="cars-list">
+          <div class="wishlist">
+            <img src="..\assets\heart (2) 1.png" alt="" />
+          </div>
+          <div class="car-display">
             <img src="..\assets\image (4).png" alt="" />
           </div>
-          <div class="text-area">
-            <div class="heart">
-              <img src="..\assets\heart (2) 1.png" alt="" />
-            </div>
-            <div class="heading-area">
-              <h2>BMW 2 Series 2019</h2>
-            </div>
+          <div class="car-name">
+            <h2>BMW 2 Series 2019</h2>
+          </div>
+          <div class="additional-details">  
+            <div>    
             <div class="details-grid">
               <div class="details">
                 <p>4.97</p>
@@ -52,6 +53,7 @@
               <img src="..\assets\pin (6) 1.png" alt="" />
               <p>London</p>
             </div>
+          </div>
             <div class="price">
               <h3>£55 £52/day</h3>
               <p>£157 excl. taxes & fees</p>
@@ -59,17 +61,18 @@
           </div>
         </div>
 
-        <div class="cars-grid">
-          <div class="car-img">
-            <img src="..\assets\image (6).png" alt="" />
+        <div class="cars-list">
+          <div class="wishlist">
+            <img src="..\assets\heart (2) 1.png" alt="" />
           </div>
-          <div class="text-area">
-            <div class="heart">
-              <img src="..\assets\heart (2) 1.png" alt="" />
-            </div>
-            <div class="heading-area">
-              <h2>BMW 2 Series 2019</h2>
-            </div>
+          <div class="car-display">
+            <img src="..\assets\image (4).png" alt="" />
+          </div>
+          <div class="car-name">
+            <h2>BMW 2 Series 2019</h2>
+          </div>
+          <div class="additional-details">  
+            <div>    
             <div class="details-grid">
               <div class="details">
                 <p>4.97</p>
@@ -87,24 +90,25 @@
               <img src="..\assets\pin (6) 1.png" alt="" />
               <p>London</p>
             </div>
+          </div>
             <div class="price">
               <h3>£55 £52/day</h3>
               <p>£157 excl. taxes & fees</p>
             </div>
           </div>
         </div>
-
-        <div class="cars-grid">
-          <div class="car-img">
-            <img src="..\assets\image (7).png" alt="" />
+        <div class="cars-list">
+          <div class="wishlist">
+            <img src="..\assets\heart (2) 1.png" alt="" />
           </div>
-          <div class="text-area">
-            <div class="heart">
-              <img src="..\assets\heart (2) 1.png" alt="" />
-            </div>
-            <div class="heading-area">
-              <h2>BMW 2 Series 2019</h2>
-            </div>
+          <div class="car-display">
+            <img src="..\assets\image (4).png" alt="" />
+          </div>
+          <div class="car-name">
+            <h2>BMW 2 Series 2019</h2>
+          </div>
+          <div class="additional-details">  
+            <div>    
             <div class="details-grid">
               <div class="details">
                 <p>4.97</p>
@@ -122,6 +126,7 @@
               <img src="..\assets\pin (6) 1.png" alt="" />
               <p>London</p>
             </div>
+          </div>
             <div class="price">
               <h3>£55 £52/day</h3>
               <p>£157 excl. taxes & fees</p>
@@ -129,15 +134,17 @@
           </div>
         </div>
       </div>
-
       <div class="map-section">
         <img src="..\assets\image (5).png" alt="" />
       </div>
     </div>
-    <div class="partners-logo">
+    <div class="partners-logo px-5 md:px-12 lg:px-24 xl:px-36">
       <img src="..\assets\css 1 (1).png" alt="" />
     </div>
+    <div id="footer"></div>
 
     <script type="module" src="../../main.js"></script>
+    <script type="module" src="../js/car-lists.js">
+    </script>
   </body>
 </html>
