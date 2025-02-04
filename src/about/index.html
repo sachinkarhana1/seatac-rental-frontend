@@ -13,7 +13,7 @@
 
   <body>
     <div id="header"></div>
-    <div class="flex justify-start pt-[25px]  px-40 py-4">
+    <div class="flex justify-start pt-[25px]  px-5 md:px-12 lg:px-24 xl:px-36 py-4">
 
       <div class="flex items-center border-b border-gray-300 w-full max-w-md ">
         <i class="fas fa-search   "></i>
@@ -26,25 +26,25 @@
     </div>
 
     
-
-    <div class="flex px-40 py-12">
+<!-- about one -->
+    <div class="flex flex-col justify-center items-center md:flex-row px-5 md:px-12 lg:px-24 xl:px-36 py-12 ">
       <seatac-img-behind-car
-        class="w-3/5"
+        class="w-full md:w-3/5"
         id="design-seatac"
       ></seatac-img-behind-car>
-      <div class="w-2/5 flex justify-center flex-col">
+      <div class="w-ful md:w-2/5 flex justify-center flex-col">
         <div
-          class="flex text-black-500 font-seatac items-center text-3xl relative"
+          class="heading-secondary"
         >
           ABOUT
         </div>
 
         <div
-          class="font-seatac text-[44px] font-bold text-emerald-500 leading-[58px]"
+          class="heading-primary"
         >
           SEATAC RENTAL
         </div>
-        <div class="font-seatac text-base font-normal text-gray-500">
+        <div class="setac-paragraph text-[#696969]">
           Donec quis arcu egestas, aliquam sem sed, pharetra urna. Sed venenatis
           erat eu nulla finibus interdum. Fusce non lectus magna. Maecenas lacus
           ipsum, blandit vitae nunc id, fringilla tempus neque. Integer vitae
@@ -61,133 +61,99 @@
         </div>
       </div>
     </div>
+    <!-- about one -->
+     
+     <!-- ai -->
 
 
+     <!-- ai -->
 
-    <!-- ai -->
-    <div class="bg-gray-100">
-      <div class="flex flex-col md:flex-row px-6 md:px-40 py-12 space-y-6 md:space-y-0">
-          <seatac-img-behind-car
-              class="w-full md:w-3/5"
-              id="design-seatac"
-          ></seatac-img-behind-car>
-          
-          <div class="w-full md:w-2/5 flex justify-center flex-col">
-              <div
-                  class="flex text-black-500 font-seatac items-center text-2xl md:text-3xl relative"
-              >
-                  ABOUT
-              </div>
-  
-              <div
-                  class="font-seatac text-3xl md:text-[44px] font-bold text-emerald-500 leading-[40px] md:leading-[58px]"
-              >
-                  SEATAC RENTAL
-              </div>
-              <div class="font-seatac text-sm md:text-base font-normal text-gray-500">
-                  Donec quis arcu egestas, aliquam sem sed, pharetra urna. Sed venenatis
-                  erat eu nulla finibus interdum. Fusce non lectus magna. Maecenas lacus
-                  ipsum, blandit vitae nunc id, fringilla tempus neque. Integer vitae
-                  velit libero. Cras euismod tempor lectus, vel tempor turpis
-                  consectetur varius. Etiam faucibus metus vitae elit rutrum tempus.
-                  <br />
-  
-                  Proin sit amet accumsan eros. Orci varius natoque penatibus et magnis
-                  dis parturient montes, nascetur ridiculus mus. In eros urna, varius in
-                  ex quis, aliquet faucibus ante. Pellentesque maximus, ipsum eu varius
-                  dignissim, ex diam ullamcorper mauris, vel porttitor elit dolor id
-                  est. Nullam vitae enim lorem. Integer blandit aliquet risus at
-                  aliquam. Phasellus vitae pulvinar urna. Integer quis nibh elit.   
-              </div>
-          </div>
-      </div>
-  </div>
-
-
-
-  <!-- ai -->
 
     <!-- find section  -->
     <div class="relative findSection bg-[#141A1C]">
       <div
-        class="find pt-14 pb-[300px] px-40 flex flex-col justify-center items-center w-full"
+        class="find pt-10 md:pt-10 lg:pt-14 pb-[25%]  px-5 md:px-20  lg:px-40 flex flex-col justify-center items-center w-full"
       >
         <div
-          class="findheading font-seatac text-emerald-500 font-bold text-[42px]"
+          class="findheading font-seatac text-[#22AF86]  font-bold text-2xl md:text-3xl lg:text-[38px] text-center"
         >
           FIND YOUR DRIVE
         </div>
-        <div class="findtext text-white font-seatac pt-4 pb-4 text-center">
-          Seatac Rantal is the world’s largest car sharing platform, where you
-          can book the perfect car for wherever you’re going from a vibrant
-          community of trusted hosts across the US, UK, Canada, Australia, and
-          France. Flying in from afar or looking for a car down the street,
-          searching for a rugged truck or something smooth and swanky, you can
-          skip the rental car counter and choose from an extraordinary, totally
-          unique selection of nearby vehicles shared by local hosts.
-          Entrepreneurs can take the wheel of their futures by becoming hosts
-          and building car sharing businesses on Seatac Rantal, leveraging our
-          established platform to scale their businesses to meet their goals.
-          <br />
-          <br />
-
-          With an unwavering mission of putting the world’s 1.5 billion cars to
-          better use, Seatac Rantal unlocks the hidden value in idle and
-          underutilized assets, empowering anyone to get in the driver’s seat.
+        <div class="findtext text-white font-seatac text-[12px] md:text-[13px] py-4 px-4 md:px-10 md:text-base lg:text-[14px] text-center w-full">
+             <p class="leading-5">
+              Seatac Rantal is the world’s largest car sharing platform, where you
+              can book the perfect car for wherever you’re going from a vibrant
+              community of trusted hosts across the US, UK, Canada, Australia, and
+              France. Flying in from afar or looking for a car down the street,
+              searching for a rugged truck or something smooth and swanky, you can
+              skip the rental car counter and choose from an extraordinary, totally
+              unique selection of nearby vehicles shared by local hosts.
+              Entrepreneurs can take the wheel of their futures by becoming hosts
+              and building car sharing businesses on Seatac Rantal, leveraging our
+              established platform to scale their businesses to meet their goals.
+              <br />
+              <br />
+    
+              With an unwavering mission of putting the world’s 1.5 billion cars to
+              better use, Seatac Rantal unlocks the hidden value in idle and
+              underutilized assets, empowering anyone to get in the driver’s seat.
+             </p>
         </div>
         <div
-          class="findcar absolute bottom-0 translate-y-[300px] w-full flex justify-center"
+          class="findcar absolute bottom-0 translate-y-[39%] w-full flex justify-center"
         >
-          <img class="scale-90" src="../assets/aboutfindcar.png" alt="" />
+          <img class="" src="../assets/aboutfindcar.png" alt="" />
         </div>
       </div>
     </div>
     <!-- find section  -->
 
     <!-- mission section -->
-    <div class="mission pt-[200px] pb-20 pr-40 pl-40 flex gap-2">
-      <div class="missiontext flex flex-col w-[55%] justify-center">
-        <div class="font-seatac font-normal text-[27px]">COMPANY MISSION</div>
-        <div
-          class="text-emerald-500 font-seatac text-[42px] font-bold leading-[50px]"
-        >
+     <div class="flex flex-col-reverse lg:flex-row items-center gap-10   lg:gap-6 px-5 pt-[25%] md:px-10 lg:px-36 py-10 lg:pb-20 lg:pt-44 ">
+      <div class="missiontext flex flex-col w-full justify-center bg-white text-center lg:text-left ">
+        <div class="font-seatac font-normal text-[1rem] md:text-[1.25rem] lg:text-[1.5rem] text-black">
+          COMPANY MISSION
+        </div>
+        <div class="text-[#22AF86] font-seatac font-bold text-[1.5rem] md:text-[2rem] lg:text-[2.4rem] leading-[2rem] md:leading-[2.5rem] lg:leading-[3.1rem]">
           TO PUT THE WORLD'S 1.5 BILLION CARS TO BETTER USE
         </div>
       </div>
-      <div class="missioncar w-[45%]">
-        <img src="../assets/aboutmissioncar.png" alt="" />
+      <div class="missioncar w-full flex justify-center lg:justify-end sm:rounded-[50%]">
+        <img src="../assets/aboutmissioncar.png" alt="carimage" class="w-full max-w-md md:max-w-lg lg:max-w-xl object-contain " />
       </div>
     </div>
+    
+      
 
     <!-- mission section -->
 
     <!-- dive section -->
 
     <div
-      class="divesection h-[90vh] bg-[url('../assets/aboutdivbg.png')] flex flex-col bg-black opacity-[90%] object-contain px-40 py-20 gap-12"
+      class="divesection  bg-[url('/src/assets/aboutdivbg.png')] bg-cover flex flex-col bg-black opacity-[90%] object-contain px-5 md:px-12 lg:px-24 xl:px-36 py-20 gap-12"
     >
       <div class="heading-primary-dark text-center uppercase">
         Want to dive deeper?
       </div>
 
       <div
-        class="grid grid-cols-3 h-max -seatac justify-center items-center gap-8"
+        class="flex flex-wrap h-max -seatac justify-center items-center gap-8"
       >
         <div
-          class="bg-white h-full w-full flex flex-col justify-center items-center text-gray-500 rounded-t-[60px] gap-2 p-10"
+          class="bg-white h-full md:w-[45%] md:min-h-[400px] max-w-[400px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
         >
           <img
-            class="h-[56px] w-[56px]"
+            class="h-[46px] w-[46px]"
             src="../assets/homediveteam.png"
             alt=""
           />
           <div
-            class="text-emerald-500 font-seatac font-bold text-[20px] text-center"
+            class="text-[#22AF86] font-seatac font-bold text-[20px] text-center"
           >
             MEET THE TEAM
           </div>
 
-          <p class="text-center">
+          <p class="text-center seatac-paragraph text-[14px]">
             From the executive leadership team to the board of directors, get to
             know the leadership team pioneering the way to put the world’s 1.5
             billion cars to better use.
@@ -196,75 +162,126 @@
           <button class="setac-primary-button">MEET THE TEAM</button>
         </div>
         <div
-          class="bg-white h-full w-full flex flex-col justify-center items-center text-center text-gray-500 rounded-t-[60px] gap-2 p-10"
+          class="bg-white h-full max-w-[400px] md:w-[45%] lg:w-[30%] md:min-h-[400px] flex flex-col justify-center items-center text-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
         >
           <img
-            class="h-[56px] w-[56px]"
+            class="h-[46px] w-[46px]"
             src="../assets/aboutdiveteam.png"
             alt=""
           />
           <div
-            class="text-emerald-500 font-seatac font-bold text-[20px] text-center uppercase"
+            class="text-[#22AF86] font-seatac font-bold text-[20px] text-center uppercase"
           >
             Join the team
           </div>
+                                   
+          <p class="text-center seatac-paragraph text-[14px]">
           Recognized as A Great Place to Work®, Seatac Rental prides itself on
           creating a supportive,down-to-earth, pioneering, and efficient work
           environment.
-          <br />
           Review open positions and come join us!
+          </p>
           <div class="setac-primary-button">Join the team</div>
         </div>
         <div
-          class="bg-white h-full w-full flex flex-col justify-center text-center items-center text-gray-500 rounded-t-[60px] gap-2 p-10"
+          class="bg-white h-full md:w-[45%] lg:w-[30%] flex flex-col justify-center items-center text-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 md:min-h-[400px] max-w-[400px]"
         >
           <img
-            class="h-[56px] w-[56px]"
+            class="h-[46px] w-[46px]"
             src="../assets/aboutdivtouch.png"
             alt=""
           />
           <div
-            class="text-emerald-500 font-seatac font-bold text-[20px] text-center uppercase"
+            class="text-[#22AF86] font-seatac font-bold text-[20px] text-center uppercase"
           >
             Get in touch
           </div>
+          <p class="text-center seatac-paragraph text-[14px]">
           Reach out to the Seatac Rantal newsdesk for press inquiries, the
           Seatac Rental press kit, influencer outreach, nvestor relations
           information, and any other corporate inquiries you may have.
-          <div class="setac-primary-button">Get in touch</div>
+          </p>
+          <div class="setac-primary-button">Visit the newsdesk</div>
         </div>
       </div>
     </div>
 
     <!--dive section  -->
 
+
     <!-- journey section -->
 
-    <div class="journey h-[85vh] py-32 px-40 flex items-center gap-[50px]">
-      <div class="journey w-[65%]">
+    <!-- <div class="journey lg:py-24 lg:px-16 py-10 px-5 flex lg:flex-row flex-col  items-center  lg:gap-[3rem] gap-3 ">
+      <div class=" w-full lg:w-1/2 ">
         <img src="../assets/journeyCar.png" alt="journeycar" />
       </div>
       <div
-        class="missiontext flex flex-col w-[35%] justify-center h-full uppercase gap-1.5"
+        class="missiontext flex flex-col lg:items-start items-center lg:w-1/2 w-full  uppercase gap-1.5 "
       >
-        <div class="font-seatac font-normal text-[27px]">Follow </div>
+        <div class="font-seatac font-normal lg:text-[1.5rem] ">Follow </div>
         <div
-          class="text-emerald-500 font-seatac text-[42px] font-bold leading-[50px]"
+          class="text-[#22AF86] font-seatac text-[1.8rem] font-bold leading-10 lg:leading-[40px]"
         >
           along on the journey
         </div>
         <div>
-          <p class="text-[#696969] lowercase">
+          <p class="text-[#696969] lowercase text-[14px] text-center">
             Cruise the Seatac Rantal blog for drool-worthy cars,chronicles of
             adventures from the road, and the latest from the Seatac Rental
             newsdesk.
           </p>
         </div>
-        <div class="setac-primary-button w-[50%] text-center mt-5 p-5">
+        <div class=" text-center mt-2 p-3 bg-[#22AF86] rounded-[2rem]  w-auto text-[#ffff]">
           GO TO BLOG
         </div>
       </div>
+    </div> -->
+     <!-- journey section -->
+
+
+
+
+
+
+
+
+
+
+
+
+     <div class="journey flex flex-col lg:flex-row items-center gap-8 px-6 lg:px-36 py-20">
+      <!-- Image Section -->
+      <div class="w-full lg:w-[68%]">
+        <img
+          src="../assets/journeyCar.png"
+          alt="Journey Car"
+          class=" object-cover w-full"
+        />
+      </div>
+    
+      <!-- Text Section -->
+      <div class="flex flex-col w-full lg:w-[32%] items-center lg:items-start  gap-4 text-center lg:text-left">
+        <h3 class="heading-secondary uppercase">Follow</h3>
+        <h2 class="heading-primary uppercase ">
+          Along on the Journey
+        </h2>
+        <p class="text-gray-600 text-[0.875rem] leading-4  lg:text-base ">
+          Cruise the Seatac Rental blog for drool-worthy cars, chronicles of adventures
+          from the road, and the latest from the Seatac Rental newsdesk.
+        </p>
+        <button
+          class="setac-primary-button"
+        >
+          Go to Blog
+        </button>
+      </div>
     </div>
+
+
+
+
+
+
 
     <div id="footer"></div>
     <script type="module" src="../js/about.js"></script>
