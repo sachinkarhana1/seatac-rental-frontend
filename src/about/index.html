@@ -13,7 +13,7 @@
 
   <body>
     <div id="header"></div>
-    <div class="flex justify-start pt-[25px]  px-40 py-4">
+    <div class="flex justify-start pt-[25px]  px-5 md:px-12 lg:px-24 xl:px-36 py-4">
 
       <div class="flex items-center border-b border-gray-300 w-full max-w-md ">
         <i class="fas fa-search   "></i>
@@ -26,25 +26,25 @@
     </div>
 
     
-
-    <div class="flex px-40 py-12">
+<!-- about one -->
+    <div class="flex flex-col justify-center items-center md:flex-row px-5 md:px-12 lg:px-24 xl:px-36 py-12 ">
       <seatac-img-behind-car
-        class="w-3/5"
+        class="w-full md:w-3/5"
         id="design-seatac"
       ></seatac-img-behind-car>
-      <div class="w-2/5 flex justify-center flex-col">
+      <div class="w-ful md:w-2/5 flex justify-center flex-col">
         <div
-          class="flex text-black-500 font-seatac items-center text-[25px] font-normal relative"
+          class="heading-secondary"
         >
           ABOUT
         </div>
 
         <div
-          class="font-seatac text-[38px] font-bold text-[#22AF86] leading-[41px]"
+          class="heading-primary"
         >
           SEATAC RENTAL
         </div>
-        <div class="font-seatac text-base font-normal text-gray-500">
+        <div class="setac-paragraph text-[#696969]">
           Donec quis arcu egestas, aliquam sem sed, pharetra urna. Sed venenatis
           erat eu nulla finibus interdum. Fusce non lectus magna. Maecenas lacus
           ipsum, blandit vitae nunc id, fringilla tempus neque. Integer vitae
@@ -61,6 +61,12 @@
         </div>
       </div>
     </div>
+    <!-- about one -->
+     
+     <!-- ai -->
+
+
+     <!-- ai -->
 
 
     <!-- find section  -->
@@ -202,33 +208,80 @@
 
     <!--dive section  -->
 
+
     <!-- journey section -->
 
-    <div class="journey h-auto py-32 px-40 flex items-center gap-[50px]">
-      <div class="journey w-full">
+    <!-- <div class="journey lg:py-24 lg:px-16 py-10 px-5 flex lg:flex-row flex-col  items-center  lg:gap-[3rem] gap-3 ">
+      <div class=" w-full lg:w-1/2 ">
         <img src="../assets/journeyCar.png" alt="journeycar" />
       </div>
       <div
-        class="missiontext flex flex-col w-full justify-center h-full uppercase gap-1.5"
+        class="missiontext flex flex-col lg:items-start items-center lg:w-1/2 w-full  uppercase gap-1.5 "
       >
-        <div class="font-seatac font-normal text-[25px]">Follow </div>
+        <div class="font-seatac font-normal lg:text-[1.5rem] ">Follow </div>
         <div
-          class="text-[#22AF86] font-seatac text-[38px] font-bold leading-[40px]"
+          class="text-[#22AF86] font-seatac text-[1.8rem] font-bold leading-10 lg:leading-[40px]"
         >
           along on the journey
         </div>
         <div>
-          <p class="text-[#696969] lowercase text-[14px]">
+          <p class="text-[#696969] lowercase text-[14px] text-center">
             Cruise the Seatac Rantal blog for drool-worthy cars,chronicles of
             adventures from the road, and the latest from the Seatac Rental
             newsdesk.
           </p>
         </div>
-        <div class="setac-primary-button w-full text-center mt-5 p-5">
+        <div class=" text-center mt-2 p-3 bg-[#22AF86] rounded-[2rem]  w-auto text-[#ffff]">
           GO TO BLOG
         </div>
       </div>
+    </div> -->
+     <!-- journey section -->
+
+
+
+
+
+
+
+
+
+
+
+
+     <div class="journey flex flex-col lg:flex-row items-center gap-8 px-6 lg:px-36 py-20">
+      <!-- Image Section -->
+      <div class="w-full lg:w-[68%]">
+        <img
+          src="../assets/journeyCar.png"
+          alt="Journey Car"
+          class=" object-cover w-full"
+        />
+      </div>
+    
+      <!-- Text Section -->
+      <div class="flex flex-col w-full lg:w-[32%] items-center lg:items-start  gap-4 text-center lg:text-left">
+        <h3 class="heading-secondary uppercase">Follow</h3>
+        <h2 class="heading-primary uppercase ">
+          Along on the Journey
+        </h2>
+        <p class="text-gray-600 text-[0.875rem] leading-4  lg:text-base ">
+          Cruise the Seatac Rental blog for drool-worthy cars, chronicles of adventures
+          from the road, and the latest from the Seatac Rental newsdesk.
+        </p>
+        <button
+          class="setac-primary-button"
+        >
+          Go to Blog
+        </button>
+      </div>
     </div>
+
+
+
+
+
+
 
     <div id="footer"></div>
     <script type="module" src="../js/about.js"></script>
