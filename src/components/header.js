@@ -19,7 +19,8 @@ export default function header() {
           </div>
           <div class="hidden setac-primary-button md:flex">create an account for guest </button> </div>
         </div>
-        <div class="absolute top-[90%] -translate-x-1/2 rounded-lg font-semibold right-1 bg-white " id="menu-header">
+
+        <div class="absolute top-[90%] max-w-[800px] rounded-lg font-semibold bg-white" id="seatac-menu-header">
           
         </div>
     </div>

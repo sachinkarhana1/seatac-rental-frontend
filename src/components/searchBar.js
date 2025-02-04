@@ -44,9 +44,9 @@ export default function searchBar() {
             </div>
           </div>
       </div>
-      <div class="p-[6px] rounded-full flex justify-center items-center bg-primary aspect-square">
+      <a href="/car-lists" class="p-[6px] rounded-full flex justify-center items-center bg-primary aspect-square">
         <img class="scale-75" src="${search}"/>
-      </div>
+      </a>
     </div>
  `;
 }

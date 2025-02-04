@@ -4,7 +4,7 @@ export default function menu() {
             <a href="/" class="md:px-5 hover:underline transition-all ">Home</a>
             <a href="/about" class="md:px-5 hover:underline">About</a>
             <a href="/" class="md:px-5 hover:underline">Why Seactac</a>
-            <a href="/car-list" class="md:mx-5 setac-primary-button">Booked Now</a>
+            <a href="/car-lists" class="md:mx-5 setac-primary-button">Booked Now</a>
           </div>   
     `;
 }
