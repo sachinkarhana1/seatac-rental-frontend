@@ -10,7 +10,12 @@
   --main-color: #22af86;
   
 }
+#searchBar{
+  max-width: 850px;
+  padding: 0px 20px;
+  margin: 44px auto;
 
+}
 .filters {
   display: flex;
   margin-top: 28px;
@@ -287,6 +292,11 @@ details p{
 .additional-details{
   padding-top: 20px;
 }
+
+#searchBar{
+  padding: 0px 20px;
+}
+
 
 @media screen and (min-width: 768px){
  
