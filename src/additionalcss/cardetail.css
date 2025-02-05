@@ -11,6 +11,11 @@
   --padding-left-right: 80px;
 }
 
+#searchBar{
+  max-width: 850px;
+  padding: 0px 20px;
+  margin: 44px auto;
+}
 .left-side {
   width: 72%;
   padding: left 80px;
@@ -26,7 +31,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
   grid-gap: 10px;
-  width: 80%;
+  width: 76%;
 
   margin: 0px auto;
 }
@@ -164,7 +169,6 @@
   font-size: 16px;
   font-weight: 400;
   color: #696969;
-  width: 784px;
   margin-top: 20px;
 }
 .read-more{
@@ -265,67 +269,40 @@
 }
 
 
+@media (max-width: 768px) { 
+  .main{
+    grid-template-columns: auto;
+    width: 90%;
+  }
+  .second-section{
+margin-top: 10rem;
+  }
+    .grid-elements{
+      padding-right: 0px;
+    } 
+  
+  .overview{
+    flex-wrap: wrap;
+  }
+.progress-bar{
+    grid-template-columns: 2fr 2fr 1fr;
 
-
-
-
-
-
-
-.footerparent {
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
-  }
-  .line {
-    width: 0.5px;
-    background-color: white;
-  }
-  
-  .footer-col {
-    width: 23%;
-    color: #ffffff;
-    padding: 10px;
-  }
-  
-  .logo-col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .iconImg {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  .footer-col h4 {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 22px;
-  }
-  
-  ul.links {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul.links li {
-    margin: 5px 0;
-  }
-  
-  ul.links a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  ul.links a:hover {
-    text-decoration: underline;
-  }
-  
+}
+.partners-logo{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.map {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.last-heading {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.publish-details{
+  width: auto;
+}
+}
 
