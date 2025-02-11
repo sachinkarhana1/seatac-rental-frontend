@@ -1,0 +1,5 @@
+.header-transition {
+  height: 0px;
+  transition: height 2s ease-in-out;
+  max-height: max-content;
+}

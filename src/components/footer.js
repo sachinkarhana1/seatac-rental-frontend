@@ -1,15 +1,29 @@
+import { siFacebook, siIndeed, siX } from "simple-icons";
 import footerImageLogo from "../assets/seatac-logo-light-theme.png";
 
 export default function footer() {
+  const inDeedIcon = siIndeed.svg.replace(
+    "<svg",
+    '<svg fill="white" class="outline outline-[1px] rounded-full p-2 hover:scale-105 cursor-pointer transition-all" '
+  );
+  const facebook = siFacebook.svg.replace(
+    "<svg",
+    '<svg fill="white" class="hover:scale-105 cursor-pointer transition-all" '
+  );
+
+  const xLogo = siX.svg.replace(
+    "<svg",
+    '<svg fill="white" class="p-2 outline outline-[1px] rounded-full hover:scale-105 cursor-pointer transition-all" '
+  );
   return `
     <div class="w-full grid grid-cols-5 grid-rows-2 px-4 pt-8 pb-8 gap-4 bg-secondary text-white lg:flex-row lg:py-12 md:grid-cols-7 md:grid-rows-1 md:px-20  lg:px-40">
         <div class="col-span-2">
             <img class="w-full" src="${footerImageLogo}" />
-            <div class="flex gap-4">
-                <div class="flex w-12 aspect-square">
-                x</div>
-                <div class="flex w-12 aspect-square">f</div>
-                <div class="flex w-12 aspect-square">y</div>
+            <div class="flex justify-center  gap-4">
+                <div class="flex w-10 rounded-full text-white justify-center items-center h-10">
+                ${inDeedIcon}</div>
+                <div class="flex w-10 rounded-full justify-center items-center h-10 ">${facebook}</div>
+                <div class="flex w-10 rounded-full justify-center items-center h-10 ">${xLogo}</div>
             </div>
         </div>
         <div class="flex flex-col w-full gap-6 col-span-2  row-start-2 md:col-span-1 md:row-start-1 md:col-start-3 ">

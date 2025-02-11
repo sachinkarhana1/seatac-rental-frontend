@@ -20,8 +20,7 @@ export default function customOutpoutPlugin() {
           fs.removeSync("dist/src");
         }
       }
-      // const destination = "dist/";
-      // fs.moveSync(source, destination, { overwrite: true });
     },
   };
 }
+  
