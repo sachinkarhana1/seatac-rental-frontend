@@ -5,20 +5,1039 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car Rental</title>
     <link rel="stylesheet" href="../../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="flex flex-col">
-      <div class="px-40 flex">
-        <seatac-img-behind-car
-          class="w-3/5"
-          data-background="../assets/how-seatac-works-design-bg.png"
-          data-car="../assets/how-seatac-works-design-car.png"
+    <!-- searchbar -->
+    <div id="header"></div>
+    <div class="flex justify-start pt-[25px] px-40 py-4">
+      <div class="flex items-center border-b border-gray-300 w-full max-w-md">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          placeholder="City, Airport, Address Or Hotel"
+          class="w-full px-2 py-1 text-sm text-gray-700 focus:outline-none"
+        />
+      </div>
+    </div>
+    <!-- searchbar -->
+
+    <!-- seatach-works- -->
+    <div
+      class="flex flex-col justify-center items-center md:flex-row px-5 md:px-12 lg:px-24 xl:px-36 py-12"
+    >
+      <seatac-img-behind-car
+        class=""
+        class="w-full md:w-3/5"
+        id="design-seatac"
+      ></seatac-img-behind-car>
+      <div class="w-ful md:w-2/5 flex justify-center flex-col">
+        <div class="heading-secondary">HOW</div>
+
+        <div class="heading-primary">SEATAC RENTAL WORKS</div>
+        <div class="setac-paragraph text-[#696969]">
+          Skip the rental car counter and rent just about any car,
+          <br />
+          just about anywhere
+        </div>
+        <button class="setac-primary-button mt-4">FIND THE PERFECT CAR</button>
+      </div>
+    </div>
+    <!-- seatach-works- -->
+
+    <!-- setac vs -->
+
+    <div class="relative findSection bg-secondary">
+      <div
+        class="find pt-10 md:pt-10 lg:pt-14 pb-[25%] px-5 md:px-20 lg:px-40 flex flex-col justify-center items-center w-full"
+      >
+        <div
+          class="findheading font-seatac text-[#22AF86] font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center"
         >
-        </seatac-img-behind-car>
-        <div class="w-2/5"></div>
+          <span class="text-[#fff] font-normal text-[1.6rem]"
+            >SEATAC RENTAL VS.</span
+          >
+          <br />
+          CAR RENTAL
+        </div>
+        <div
+          class="flex h-max font-seatac justify-center items-center flex-col lg:flex-row gap-8 pt-10"
+        >
+          <div
+            class="bg-[#272d30] w-[90%] md:w-1/2 flex h-full flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7"
+          >
+            <div
+              class="text-[#fff] font-seatac font-bold text-[20px] text-center"
+            >
+              Seatac Rental
+            </div>
+
+            <ul class="flex flex-col gap-2">
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-righticon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />App-based experience
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-righticon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />
+                No waiting in line
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-righticon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />
+                1,600+ unique makes & models
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-righticon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />Get the exact car you choose
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-righticon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />Delivery options & thousands of pickup locations
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-righticon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />Cars shared by local small businesses
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-righticon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />
+                Vehicles and hosts rated by guests
+              </li>
+            </ul>
+          </div>
+          <div
+            class="bg-[#272d30] w-[90%] md:w-1/2 flex h-full flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-10"
+          >
+            <div
+              class="text-[#fff] font-seatac font-bold text-[20px] text-center"
+            >
+              Car rental
+            </div>
+
+            <ul class="flex flex-col gap-2">
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-removeicon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />Standard rental counter experience
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-removeicon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />
+                Waiting in line
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-removeicon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />
+                Limited car selection
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-removeicon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />Get one type of car “or similar”
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-removeicon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />Pickup at retail locations
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-removeicon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />Cars owned by large corporations
+              </li>
+              <li class="flex w-auto gap-2 items-start">
+                <img
+                  src="/src/assets/how-seatac-works-vs-removeicon.png"
+                  alt="righticon.img"
+                  class="h-5 w-5"
+                />
+                No vehicle ratings
+              </li>
+            </ul>
+          </div>
+          <div
+            class="findcar absolute bottom-0 translate-y-[35%] w-full flex justify-center"
+          >
+            <img
+              class="scale-75"
+              src="../assets/how-seatac-works-vs-carimage.png"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </div>
 
+    <!-- seatac vs -->
+
+    <!-- book a car -->
+    <div
+      class="divesection bg-cover flex flex-col object-contain px-5 md:px-12 lg:px-24 xl:px-36 pb-16 pt-40 gap-12"
+    >
+      <div
+        class="findheading font-seatac text-[#22AF86] font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center"
+      >
+        <span class="text-[#FFF] font-normal text-[1.6rem]">
+          <div
+            class="findheading font-seatac text-[#22AF86] font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center"
+          >
+            <span class="text-[#000] font-normal text-[1.6rem]">HOW TO</span>
+            <br />
+            BOOK A CAR
+          </div></span
+        >
+      </div>
+
+      <div
+        class="flex flex-wrap h-max -seatac justify-center items-center gap-8"
+      >
+        <div
+          class="bg-[#22AF86] h-full md:w-[45%] md:min-h-[400px] max-w-[400px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7"
+        >
+          <img
+            class="h-[80px] w-[80px]"
+            src="../assets/how-seatac-works-WORK-SEARCH.png"
+            alt=""
+          />
+          <div
+            class="text-[#FFF] font-seatac font-bold text-[20px] text-center"
+          >
+            1. Find the perfect car
+          </div>
+
+          <p class="text-center seatac-paragraph text-[14px] text-[#fff]">
+            Just enter where and when you need a car, filter to find the best
+            one for you, and read reviews from previous renters.
+          </p>
+        </div>
+        <div
+          class="bg-[#22AF86] h-full max-w-[400px] md:w-[45%] lg:w-[30%] md:min-h-[400px] flex flex-col justify-center items-center text-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7"
+        >
+          <img
+            class="h-[80px] w-[80px]"
+            src="../assets/how-seatac-works-WORK-TRUCK.png"
+            alt=""
+          />
+          <div
+            class="text-[#FFF] font-seatac font-bold text-[20px] text-center uppercase"
+          >
+            1. Find the perfect car
+          </div>
+
+          <p class="text-center seatac-paragraph text-[14px] text-[#fff]">
+            Grab a car nearby or get one delivered to various destinations,
+            including many airports, train stations, hotels, or maybe even your
+            home.
+          </p>
+        </div>
+        <div
+          class="bg-[#22AF86] h-full md:w-[45%] lg:w-[30%] flex flex-col justify-center items-center text-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 md:min-h-[400px] max-w-[400px]"
+        >
+          <img
+            class="h-[80px] w-[80px]"
+            src="../assets/how-seatac-works-WORK-CAR.png"
+            alt=""
+          />
+          <div
+            class="text-[#FFF] font-seatac font-bold text-[20px] text-center uppercase"
+          >
+            2. Select a pickup location
+          </div>
+          <p class="text-center seatac-paragraph text-[14px] text-[#fff]">
+            Your host sends you pickup details, and you’re all set! If you have
+            questions, you can easily chat with your host or contact support.
+          </p>
+        </div>
+      </div>
+      <div class=" py-4 flex justify-center ">
+        <button class="setac-primary-button mt-4 p-4">BROWSE CAR</button>
+      
+      </div>
+    </div>
+    <!-- book a car -->
+
+    <!-- choose section -->
+    <!-- 
+      <div
+      class="divesection  bg-[url('/src/assets/how-seatac-works-choose.png')] w-auto bg-cover flex flex-col md:flex-row bg-black opacity-[90%] object-contain px-5 md:px-12 lg:px-24 xl:px-36 py-20 gap-12">
+        
+      <div class="missiontext flex flex-col w-full justify-center text-center  lg:text-left ">
+        <div class="heading-secondary text-[#fff] uppercase ">
+          Why
+  
+        </div>
+        <div class="heading-primary uppercase">
+          
+          choose SEATAC Rental
+        </div>
+         <div class="">
+          <div class="flex">
+            <div><img src="../assets/how-seatac-works-choose-aeroplane.png" alt=""></div>
+            <div>
+              <h3>Enjoy a streamlined airport experience</h3>
+              <p>100+ airports across the US and Canada let Seatac Rental hosts bring cars to airport parking lots and garages. Some smaller airports even allow curbside pickup at the terminal.*</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div><img src="../assets/how-seatac-works-choose-aeroplane.png" alt=""></div>
+            <div>
+              <h3>Enjoy a streamlined airport experience</h3>
+              <p>100+ airports across the US and Canada let Seatac Rental hosts bring cars to airport parking lots and garages. Some smaller airports even allow curbside pickup at the terminal.*</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div><img src="../assets/how-seatac-works-choose-aeroplane.png" alt=""></div>
+            <div>
+              <h3>Enjoy a streamlined airport experience</h3>
+              <p>100+ airports across the US and Canada let Seatac Rental hosts bring cars to airport parking lots and garages. Some smaller airports even allow curbside pickup at the terminal.*</p>
+            </div>
+          </div>
+         </div>
+    
+      
+         
+       
+        </div>
+      </div>
+    </div>
+    </div>
+      <div class="missioncar w-full flex justify-center lg:justify-end sm:rounded-[50%]">
+        <img src="../assets/how-seatac-works-choose-car.png" alt="carimage" class="w-full max-w-md md:max-w-lg lg:max-w-xl object-contain " />
+      </div> -->
+
+    <!-- choose section -->
+
+
+
+
+    <!-- second choose section-->
+    <section
+      class="bg-[url('/src/assets/how-seatac-works-choose.png')] bg-black bg-opacity-90 bg-cover bg-center py-16 px-6 md:px-12 lg:px-24 xl:px-36 flex flex-col md:flex-row gap-12"
+    >
+      <!-- Text Section -->
+      <div class="flex flex-col w-full justify-center text-center lg:text-left">
+        <h3 class="text-white uppercase text-[1.5rem] tracking-wide mb-0">
+          Why
+        </h3>
+        <h1
+          class="text-4xl md:text-5xl text-[#22AF86] uppercase font-bold mb-4"
+        >
+          Choose Seatac Rental
+        </h1>
+
+        <div class="flex flex-col gap-2">
+          <!-- Feature 1 -->
+          <div class="flex items-start gap-1">
+            <div class="flex-shrink-0 p-3 rounded-full">
+              <img
+                src="../assets/how-seatac-works-choose-aeroplane.png"
+                alt="Protection icon"
+                class="h-16 w-16"
+              />
+            </div>
+            <div>
+              <h2 class="text-[#22AF86] text-lg font-bold">
+                Enjoy A Streamlined Airport Experience
+              </h2>
+              <p class="text-[#A5A5A5] text-base leading-5">
+                100+ airports across the US and Canada let Seatac Rental hosts
+                bring cars to airport parking lots and garages. Some smaller
+                airports even allow curbside pickup at the terminal.*
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="flex items-start gap-1">
+            <div class="flex-shrink-0 p-3 rounded-full">
+              <img
+                src="../assets/how-seatac-works-choose-women.png"
+                alt="Protection icon"
+                class="h-16 w-16"
+              />
+            </div>
+            <div>
+              <h2 class="text-[#22AF86] text-lg font-bold capitalize">
+                Get Personalized Service From A Local Host
+              </h2>
+              <p class="text-[#A5A5A5] text-base leading-5">
+                Seatac Rental hosts are everyday entrepreneurs who share cars in
+                their communities.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="flex items-start gap-1">
+            <div class="flex-shrink-0 p-3 rounded-full">
+              <img
+                src="../assets/how-seatac-works-choose-shield.png"
+                alt="Protection icon"
+                class="h-16 w-16"
+              />
+            </div>
+            <div>
+              <h2 class="text-[#22AF86] text-lg font-bold">
+                Relax With Support & Damage Protection
+              </h2>
+              <p class="text-[#A5A5A5] text-base leading-5">
+                24/7 support and roadside assistance mean help is just a call
+                away, plus you can choose from a range of protection plans.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="flex w-full justify-center lg:justify-end">
+        <img
+          src="../assets/how-seatac-works-choose-car.png"
+          alt="Car image"
+          class="w-full max-w-sm md:max-w-md lg:max-w-lg object-contain"
+        />
+      </div>
+    </section>
+    <!-- second choose section-->
+
+
+   <!-- drop-off -->
+    <div>
+    
+      <div
+          class="findheading font-seatac  text-[#22AF86] uppercase font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center lg:pt-16 py-5   md:py-5 "
+        >
+          <span class="text-[#000] font-normal text-[1.6rem] uppercase"
+            >How pickup &</span
+          >
+          <br />
+          drop-off work
+        </div>
+            
+    <div class="flex flex-col-reverse lg:flex-row items-center gap-10   lg:gap-12 px-5  md:px-10 lg:px-36 py-10 lg:pb-20 lg:pt-10 pt-10 ">
+  
+      <div class="missioncar w-full flex justify-center lg:justify-end sm:rounded-[50%]">
+        <img src="../assets/how-seatac-works-drropoff.png" alt="carimage" class="w-full max-w-md md:max-w-lg lg:max-w-xl object-contain " />
+      </div>
+      <div class="missiontext flex flex-col w-full justify-center bg-white text-center lg:text-left  md:items-center ">
+    
+        <div class="text-[#22AF86] font-seatac font-bold text-[1.5rem] md:text-[1.5rem] lg:text-[2rem]  leading-[2rem] md:leading-[2.5rem] lg:leading-[2.2rem]">
+          Every Time you Rent A Car <br> on  Seatac Rental, You’ll:
+        </div>
+      <div class="flex gap-3">
+       <div class=" pt-2">
+         <img src="../assets/how-seatac-works-drropoff-circle.png" alt="ollist.img" class="">
+        </div>
+        <p class="text-[#696969]">Receive pickup and drop-off instructions from your host once you book</p>
+      </div>
+      <div class="flex gap-3 ">
+       <div class=" pt-2">
+         <img src="../assets/how-seatac-works-drropoff-circle.png" alt="ollist.img" class="">
+        </div>
+        <p class="text-[#696969]" >Receive pickup and drop-off instructions from your host once you book</p>
+      </div>
+      <div class="flex gap-3 ">
+       <div class=" pt-2">
+         <img src="../assets/how-seatac-works-drropoff-circle.png" alt="ollist.img" class="">
+        </div>
+        <p class="text-[#696969]" >Receive pickup and drop-off instructions from your host once you book</p>
+      </div>
+      </div>
+    </div>
+
+    </div>
+    <!-- droof off -->
+
+
+
+    <!-- option -->
+    <div
+    class="divesection   flex flex-col bg-[#ebf1f3] object-contain  px-5 md:px-12 lg:px-24 xl:px-36 py-10 gap-12"
+  >
+  <div
+  class="findheading font-seatac  text-[#22AF86]  uppercase font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center lg:pt-8 py-5   md:py-5 "
+>
+  <span class="text-[#000] font-normal text-[1.6rem] uppercase"
+    >Multiple pickup &</span
+  >
+  <br />
+  drop-off options
+
+  <p class="text-[#A5A5A5]  text-[.8rem] font-light  lowercase">
+    Some hosts meet guests in person, while others opt for remote handoffs.
+  </p>
+</div>
+
+    <div
+      class="flex flex-wrap h-max -seatac justify-center items-center gap-8"
+    >
+      <div
+        class="bg-white h-full md:w-[45%] md:min-h-[300px] max-w-[400px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
+      >
+        <img
+          class="h-[56px] w-[56px]"
+          src="../assets/how-seatac-works-option-relationship.png"
+          alt="handimage"
+        />
+        <div
+          class="text-[#22AF86] font-seatac font-bold text-[20px] text-center uppercase"
+        >
+        In person
+        </div>
+
+        <p class="text-center seatac-paragraph text-[14px]">
+          Your host meets you at your chosen pickup location and hands you the keys.
+        </p>
+
+        
+      </div>
+      <div
+      class="bg-white h-full md:w-[45%] md:min-h-[300px] max-w-[400px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
+    >
+      <img
+        class="h-[51px] w-[51px]"
+        src="../assets/how-seatac-works-option-lockbox.png"
+        alt="handimage"
+      />
+      <div
+        class="text-[#22AF86] font-seatac font-bold text-[20px] text-center uppercase"
+      >
+      With a lockbox
+      </div>
+
+      <p class="text-center seatac-paragraph text-[14px]">
+        Your host sends you a lockbox code, then you unlock the box to get the key.
+      </p>
+
+      
+    </div>
+
+    <div
+    class="bg-white h-full md:w-[45%] md:min-h-[300px] max-w-[400px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
+  >
+    <img
+      class="h-[51px] w-[51px]"
+      src="../assets/how-seatac-works-option-widgit.png"
+      alt="handimage"
+    />
+    <div
+      class="text-[#22AF86] font-seatac font-bold text-[20px] text-center uppercase"
+    >
+    With an app
+    </div>
+
+    <p class="text-center seatac-paragraph text-[14px]">
+      You unlock the car with the Seatac Rental app, or your host unlocks with their car manufacturer’s app.
+    </p>
+
+    
+  </div>
+
+    </div>
+  </div>
+      <!-- option -->
+
+
+
+       <!-- host -->
+    <div
+    class="divesection   flex flex-col bg-[#141A1C] object-contain  px-5 md:px-12 lg:px-24 xl:px-36 py-10 gap-12"
+  >
+  <div
+  class="findheading font-seatac  text-[#22AF86]  uppercase font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center lg:pt-8 py-5   md:py-5">
+  <span class="text-[#fff] font-normal text-[1.6rem] uppercase"
+    >Hosts</span
+  >
+  <br />
+  on SEATAC RENTAL
+  <p class="text-[#A5A5A5]  text-[.8rem] font-light  capitalize  leading-5 py-1 lg:px-28">
+    All hosts are trained by Seatac Rental and publicly reviewed by guests, so you can trust they’ll do their best to deliver a great experience and help you out if you send them a message.
+  </p>
+</div>
+
+    <div
+      class="flex flex-wrap h-max -seatac justify-center items-center gap-8"
+    >
+      <div
+        class="bg-white h-full md:w-[45%] md:min-h-[200px] max-w-[600px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
+      >
+        <div class="flex  gap-2 w-full  ">
+          <img
+          class="h-[80px] w-[80px]"
+          src="../assets/how-seatac-works-hostone.png"
+          alt="hostpopleimage"
+        />
+          <div class="flex gap-1 flex-col  py-3 ">
+            <h5 class="text-[#22AF86] font-bold uppercase text-[0.9rem]">Baker Ohana.</h5>
+            <div class="flex gap-1   ">
+              <img src="../assets/how-seatac-works-host-premium-badge.png" class="h-[14px] w-[14px]  " alt="">
+              <span class="font-medium text-[12px]">All-Star Host</span>          
+            </div>
+            <div class="flex gap-1  font-semibold ">
+              <div class="text-[10px]">8,199 trips </div>
+              <div class="text-[10px]">Joined May 2021</div>
+            </div>
+          </div>
+        </div>
+     <div>
+      <div
+      class="text-[#22AF86] font-seatac font-bold  text-center w-full "
+    >
+  <img src="../assets/how-seatac-works-host-star.png" alt="reviewimg" class="h-5 ">
+    </div>
+
+    <p class="text-center  text-[12px] font-seatac leading-13 py-2">
+      The Baker Ohana was lovely to work with for our <b>vacation</b>
+    </p>
+
+    <p class="text-center  text-[12px] font-seatac lg:text-start">
+      Josh B. - Oct 2024
+    </p>
+
+     </div>
+        
+      </div>
+      <div
+        class="bg-white h-full md:w-[45%] md:min-h-[200px] max-w-[600px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
+      >
+        <div class="flex  gap-2 w-full  ">
+          <img
+          class="h-[80px] w-[80px]"
+          src="../assets/how-seatac-works-host-three.png"
+          alt="hostpopleimage"
+        />
+          <div class="flex gap-1 flex-col  py-3 ">
+            <h5 class="text-[#22AF86] font-bold uppercase text-[0.9rem]">Adil S.</h5>
+            <div class="flex gap-1   ">
+              <img src="../assets/how-seatac-works-host-premium-badge.png" class="h-[14px] w-[14px]  " alt="">
+              <span class="font-medium text-[12px]">All-Star Host</span>          
+            </div>
+            <div class="flex gap-1  font-semibold ">
+              <div class="text-[10px]">1,400 trips </div>
+              <div class="text-[10px]">Joined Jan 2022</div>
+            </div>
+          </div>
+        </div>
+     <div>
+      <div
+      class="text-[#22AF86] font-seatac font-bold  text-center w-full "
+    >
+  <img src="../assets/how-seatac-works-host-star.png" alt="reviewimg" class="h-5 ">
+    </div>
+
+    <p class="text-center  text-[12px] font-seatac leading-13 py-2">
+      The Baker Ohana was lovely to work with for our <b>vacation</b>
+    </p>
+
+    <p class="text-center  text-[12px] font-seatac lg:text-start">
+      Tyler H. - Oct 2024
+    </p>
+
+     </div>
+        
+      </div>
+
+      <div
+      class="bg-white h-full md:w-[45%] md:min-h-[200px] max-w-[600px] lg:w-[30%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5 px-8 py-7 "
+    >
+      <div class="flex  gap-2 w-full  ">
+        <img
+        class="h-[80px] w-[80px]"
+        src="../assets/how-seatac-works-host-sec.png"
+        alt="hostpopleimage"
+      />
+        <div class="flex gap-1 flex-col  py-3 ">
+          <h5 class="text-[#22AF86] font-bold uppercase text-[0.9rem]">Alexandria E.</h5>
+          <div class="flex gap-1   ">
+            <img src="../assets/how-seatac-works-host-premium-badge.png" class="h-[14px] w-[14px]  " alt="">
+            <span class="font-medium text-[12px]">All-Star Host</span>          
+          </div>
+          <div class="flex gap-1  font-semibold ">
+            <div class="text-[10px]">1,507 trips </div>
+            <div class="text-[10px]">Joined Apr 2022</div>
+          </div>
+        </div>
+      </div>
+   <div>
+    <div
+    class="text-[#22AF86] font-seatac font-bold  text-center w-full "
+  >
+<img src="../assets/how-seatac-works-host-star.png" alt="reviewimg" class="h-5 ">
+  </div>
+
+  <p class="text-center  text-[12px] font-seatac leading-13 py-2">
+    The Baker Ohana was lovely to work with for our <b>vacation</b>
+  </p>
+
+  <p class="text-center  text-[12px] font-seatac lg:text-start">
+    Tord-Marius F. - Jan 2025
+  </p>
+   </div>
+    </div> 
+    </div>    
+    <div class=" py-4 flex justify-center">
+      <img src="../assets/Arrrow.png" alt="arrowicon" class="h-[50px] ">
+    
+    </div>
+  </div>
+      <!-- host -->
+
+
+
+    <!-- protected -->
+    <div>           
+    <div class="flex flex-col-reverse lg:flex-row items-center gap-10   lg:gap-12 px-5  md:px-10 lg:px-36 py-10 lg:pb-20 lg:pt-10 pt-10 ">
+  
+      <div class="missiontext flex flex-col w-full justify-center  text-center lg:text-left  md:items-center ">
+    
+        <div class="text-[#22AF86]  lg:w-full py-1 uppercase lg:text-start font-seatac font-bold text-[1.5rem] md:text-[1.5rem] lg:text-[2rem]  leading-[2rem] md:leading-[2.5rem] lg:leading-[2.2rem]">
+           <span class="text-[#000] font-normal text-[1.6rem] uppercase ">You’re</span> <br> protected
+        </div>
+        <div class="flex  gap-2">
+          <div class=" pt-2 ">
+            <img src="../assets/how-seatac-works-drropoff-circle.png" alt="ollist.img" class="h-2 w-10">
+           </div>
+        <div class="flex gap-1 flex-col ">
+         
+          <h3 class="text-[#22AF86] font-bold capitalize text-[1rem]">Physical damage protection</h3>
+          <p class="text-[#696969] leading-5">Choose from three protection plans — Premier, Standard, or Minimum — to get the level of protection that’s right for you. Spring for Premier for peace of mind (eligibility requirements apply), or pay less for lighter protection with higher out-of-pocket costs for vehicle damage or theft.</p>
+        </div>
+        </div>
+        <div class="flex gap-2 py-1">
+          <div class=" pt-2 ">
+            <img src="../assets/how-seatac-works-drropoff-circle.png" alt="ollist.img" class="h-2 w-12">
+           </div>
+        <div class="flex gap-1 flex-col ">
+         
+          <h3 class="text-[#22AF86] font-bold capitalize text-[1rem]">Liability insurance included</h3>
+          <p class="text-[#696969] leading-5">All trips include coverage under a third-party liability insurance policy issued to Seatac Rental, from Travelers Excess and Surplus Lines Company. The Travelers policy provides secondary (excess) coverage, to ensure that any Seatac Rental approved driver will be insured up to the state minimum limits required for third-party liability, unless primary coverage is explicitly required by an applicable state statute (e.g., Maryland and New York).</p>
+        </div>
+        </div>
+        <div class="flex  gap-2">
+          <div class=" pt-2 ">
+            <img src="../assets/how-seatac-works-drropoff-circle.png" alt="ollist.img" class="h-2 w-4">
+           </div>
+        <div class="flex gap-1 flex-col ">
+         
+          <h3 class="text-[#22AF86] font-bold capitalize text-[1rem]">24/7 support & roadside assistance</h3>
+          <p class="text-[#696969] leading-5">Customer support is always available to answer your questions, and 24 roadside assistance is just a call away. </p>
+        </div>
+        </div>
+      </div>
+      <div class="missioncar w-full flex justify-center lg:justify-end sm:rounded-[50%]">
+        <img src="../assets/how-seatac-works-protect.png" alt="carimage" class="w-full max-w-md md:max-w-lg lg:max-w-xl object-contain " />
+      </div>
+     
+    </div>
+
+    </div>
+
+    <!-- protected -->
+
+
+    <!-- categery -->
+    <!-- <div
+    class="divesection   flex flex-col bg-[#141A1C] object-contain  px-5 md:px-12 lg:px-24 xl:px-36 py-5 gap-12"
+  >
+  <div
+  class="findheading font-seatac  text-[#22AF86]  uppercase font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center lg:pt-8 py-5   md:py-5 "
+>
+  <span class="text-[#fff] font-normal text-[1.6rem] uppercase"
+    >Browse by</span
+  >
+  <br />
+  category
+
+
+</div>
+    <div
+      class="flex flex-wrap h-max -seatac justify-center items-center gap-6"
+    >
+      <div
+        class="bg-transparent h-full md:w-[45%] md:min-h-[300px] max-w-[400px] lg:w-[22%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5  "
+      >
+       <img src="../assets/how-seatac-works-categroy-car1.png" alt="" class="">
+       <h5 class="text-[#22AF86] font-bold  text-[1rem]">cars</h5>
+        
+      </div>
+      <div
+      class="bg-transparent h-full md:w-[45%] md:min-h-[300px] max-w-[400px] lg:w-[22%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5  "
+    >
+     <img src="../assets/how-seatac-works-categroy-car2.png" alt="" class="">
+     <h5 class="text-[#22AF86] font-bold  text-[1rem]">Convertibles</h5>
+      
+    </div>
+    <div
+    class="bg-transparent h-full md:w-[45%] md:min-h-[300px] max-w-[400px] lg:w-[22%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5  "
+  >
+   <img src="../assets/how-seatac-works-categroy-car3.png" alt="" class="">
+   <h5 class="text-[#22AF86] font-bold  text-[1rem]">Exotic & luxury </h5>
+    
+  </div>
+  <div
+  class="bg-transparent h-full md:w-[45%] md:min-h-[300px] max-w-[400px] lg:w-[22%] flex flex-col justify-center items-center text-gray-600 rounded-t-[60px] gap-2.5  "
+>
+ <img src="../assets/how-seatac-works-categroy-car4.png" alt="" class="">
+ <h5 class="text-[#22AF86] font-bold  text-[1rem]"> Minivans</h5>
+</div>
+<div> 
+</div>
+</div>
+<div class=" py-4 flex justify-center">
+  <img src="../assets/Arrrow.png" alt="arrowicon" class="h-[50px] ">
+
+</div>
+  </div>
+  </div>
+   -->
+    <!-- categery -->
+
+
+  <!-- categroyfinal -->
+  <div class="flex flex-col bg-[#141A1C] px-5 md:px-12 lg:px-24 xl:px-36 py-5 gap-12">
+    <!-- Heading Section -->
+    <div class="font-seatac text-[#22AF86] uppercase font-bold text-2xl md:text-3xl lg:text-[2.5rem] text-center lg:pt-8 py-5">
+      <span class="text-[#fff] font-normal text-[1.6rem] uppercase">Browse by</span>
+      <br />
+      Category
+    </div>
+  
+    <!-- Category Section -->
+    <div id="category-slider" class="flex overflow-x-auto gap-6 scrollbar-hide">
+      <div class="min-w-[250px] md:min-w-[300px] flex flex-col items-center text-gray-600">
+        <img src="../assets/how-seatac-works-categroy-car1.png" alt="Car" class="rounded-t-[60px] w-full" />
+        <h5 class="text-[#22AF86] font-bold text-[1rem] mt-2">Cars</h5>
+      </div>
+      <div class="min-w-[250px] md:min-w-[300px] flex flex-col items-center text-gray-600">
+        <img src="../assets/how-seatac-works-categroy-car2.png" alt="Convertible" class="rounded-t-[60px] w-full" />
+        <h5 class="text-[#22AF86] font-bold text-[1rem] mt-2">Convertibles</h5>
+      </div>
+      <div class="min-w-[250px] md:min-w-[300px] flex flex-col items-center text-gray-600">
+        <img src="../assets/how-seatac-works-categroy-car3.png" alt="Exotic & Luxury" class="rounded-t-[60px] w-full" />
+        <h5 class="text-[#22AF86] font-bold text-[1rem] mt-2">Exotic & Luxury</h5>
+      </div>
+      <div class="min-w-[250px] md:min-w-[300px] flex flex-col items-center text-gray-600">
+        <img src="../assets/how-seatac-works-categroy-car4.png" alt="Minivans" class="rounded-t-[60px] w-full" />
+        <h5 class="text-[#22AF86] font-bold text-[1rem] mt-2">Minivans</h5>
+      </div>
+    </div>
+  
+    <!-- Arrow Controls -->
+    <div class="flex justify-center gap-4 py-4">
+      <button id="slider-left" class="bg-gray-700 text-white p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+      <button id="slider-right" class="bg-gray-700 text-white p-2 rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  
+
+  <!-- categroyfinal -->
+
+
+  <!-- categery -->
+
+
+
+
+
+  <!-- question -->
+  <div class="bg-white">
+    <section class="px-6 md:px-20 py-10 pb-20 ">
+ 
+      <div class="text-center mb-8  py-5">
+        <h2 class="text-gray-900 text-xl md:text-2xl font-normal uppercase">Frequently</h2>
+        <h2 class="text-[#22AF86] lg:text-4xl md:text-3xl font-seatac font-bold uppercase ">Asked Questions</h2>
+      </div>
+  
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 lg:px-32">
+     
+        <div class="border rounded-full overflow-hidden shadow-sm ">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">Where is Seatac Rental available?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden px-4 pb-4 text-gray-700 text-[12px]">
+            Seatac Rental is available in major cities across the United States.
+          </div>
+        </div>
+  
+        <div class="border rounded-full overflow-hidden shadow-sm">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">What is the cancellation policy on Seatac Rental?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden text-[12px] px-4 pb-4 text-gray-700">
+            You can cancel your reservation free of charge within 24 hours of booking.
+          </div>
+        </div>
+
+        <div class="border rounded-full overflow-hidden shadow-sm">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">What is the cancellation policy on Seatac Rental?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden px-4 text-[12px]  pb-4 text-gray-700">
+            You can cancel your reservation free of charge within 24 hours of booking.
+          </div>
+        </div>
+
+        <div class="border rounded-full overflow-hidden shadow-sm">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">What do I need to book a car on Seatac Rental?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden text-[12px]  px-4 pb-4 text-gray-700">
+            You can cancel your reservation free of charge within 24 hours of booking.
+          </div>
+        </div>
+
+        <div class="border rounded-full overflow-hidden shadow-sm">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">What is the cancellation policy on Seatac Rental?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden text-[12px]  px-4 pb-4 text-gray-700">
+            You can cancel your reservation free of charge within 24 hours of booking.
+          </div>
+        </div>
+
+        <div class="border rounded-full overflow-hidden shadow-sm">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">What is the cancellation policy on Seatac Rental?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden text-[12px]  px-4 pb-4 text-gray-700">
+            You can cancel your reservation free of charge within 24 hours of booking.
+          </div>
+        </div>
+
+        <div class="border rounded-full overflow-hidden shadow-sm">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">What is the cancellation policy on Seatac Rental?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden text-[12px]  px-4 pb-4 text-gray-700">
+            You can cancel your reservation free of charge within 24 hours of booking.
+          </div>
+        </div>
+
+        <div class="border rounded-full overflow-hidden shadow-sm">
+          <button 
+            class="flex justify-between items-center w-full px-4 py-3 text-left text-gray-900 font-medium hover:bg-gray-100"
+            onclick="toggleFAQ(this)">
+            <span class="text-[12px]">What is the cancellation policy on Seatac Rental?</span>
+            <svg xmlns="http://www.w3.org/2000/svg" 
+              class="h-5 w-5 transition-transform transform rotate-0" 
+              viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 9.707a1 1 0 011.414 0L10 12.586l3.293-2.879a1 1 0 011.414 1.414l-4 3.5a1 1 0 01-1.414 0l-4-3.5a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="hidden px-4 text-[12px]  pb-4 text-gray-700">
+            You can cancel your reservation free of charge within 24 hours of booking.
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- question -->
+
+
+ <div id="footer"></div>    
+     <link rel="stylesheet" href="../how-seatac-rental-works/style.css">
+    <link rel="stylesheet" href="/style.css" />
+    <script src="../js/how-seatac-question.js"></script>
     <script type="module" src="../js/howSeatacRentalWorks.js"></script>
+    <script type="module" src="../components/header.js"></script>
+    <script type="module" src="../../main.js"></script>
   </body>
 </html>
